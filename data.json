@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T08:00:00+00:00",
+  "updated_at": "2026-09-23T13:09:21+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -7,8 +7,24 @@
       "image": "https://tiyatrolar.com.tr/files/activity/e/ehlikeyf/image/ehlikeyf.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/ehlikeyf",
       "sessions": [
-        {"date": "2026-10-26", "weekday_tr": "Pazartesi", "time": "20:30", "venue": "istos sahne aznavur", "city": "İstanbul", "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/istos-sahne-aznavur", "first_seen": "2026-09-23T08:00:00+00:00"},
-        {"date": "2026-12-09", "weekday_tr": "Çarşamba", "time": "20:30", "venue": "Komünite", "city": "İstanbul", "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/komunite", "first_seen": "2026-09-23T08:00:00+00:00"}
+        {
+          "date": "2026-10-26",
+          "weekday_tr": "Pazartesi",
+          "time": "20:30",
+          "venue": "istos sahne aznavur",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/istos-sahne-aznavur",
+          "first_seen": "2026-09-23T08:00:00+00:00"
+        },
+        {
+          "date": "2026-12-09",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Komünite",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/komunite",
+          "first_seen": "2026-09-23T08:00:00+00:00"
+        }
       ],
       "error": null
     }
