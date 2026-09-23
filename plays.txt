@@ -1,0 +1,4 @@
+# Plays to follow: paste one tiyatrolar.com.tr play link per line.
+# Lines starting with # are ignored, so you can leave notes.
+
+https://tiyatrolar.com.tr/tiyatro/ehlikeyf

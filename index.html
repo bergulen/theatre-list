@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-title" content="Plays">
+<title>Plays</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect x='8' y='8' width='84' height='84' rx='6' fill='%23FFF59D'/><rect x='8' y='8' width='84' height='18' rx='6' fill='%23EEDC5B'/></svg>">
+<style>
+:root {
+  --board: #E6E6EB;
+  --board-text: #3A3A3F;
+  --ink: #1D1D1F;          /* note text stays dark, like Stickies */
+  --soft: rgba(29,29,31,.62);
+  --faint: rgba(29,29,31,.14);
+  --font: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --board: #1E1E20; --board-text: #D6D6DB; }
+}
+:root[data-theme="dark"] { --board: #1E1E20; --board-text: #D6D6DB; }
+*, *::before, *::after { box-sizing: inherit; }
+[hidden] { display: none !important; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+body { margin: 0; background: var(--board); color: var(--board-text); font: 13px/1.4 var(--font); -webkit-font-smoothing: antialiased; }
+
+/* Toolbar, kept quiet like a Mac window toolbar */
+.bar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  padding: 10px 16px; background: color-mix(in srgb, var(--board) 88%, transparent);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid color-mix(in srgb, var(--board-text) 12%, transparent);
+}
+.bar h1 { font: 600 14px var(--font); margin: 0 6px 0 0; }
+.bar .checked { opacity: .7; margin-right: auto; }
+.seg { display: inline-flex; background: color-mix(in srgb, var(--board-text) 10%, transparent); border-radius: 7px; padding: 2px; }
+.seg button { font: 500 12px var(--font); color: inherit; background: none; border: 0; padding: 3px 10px; border-radius: 5px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--board); box-shadow: 0 1px 2px rgba(0,0,0,.18); }
+.bar input[type=search] {
+  font: 12px var(--font); color: inherit; background: color-mix(in srgb, var(--board-text) 8%, transparent);
+  border: 0; border-radius: 6px; padding: 5px 9px; width: 160px;
+}
+.bar label { display: inline-flex; gap: 5px; align-items: center; cursor: pointer; }
+.bar a { color: inherit; opacity: .8; }
+.bar a:hover { opacity: 1; }
+
+/* The board of notes */
+.board { padding: 22px 16px 32px; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 18px; }
+.note {
+  flex: 0 1 260px; min-width: 220px; color: var(--ink);
+  background: var(--paper); border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.08), 0 6px 16px rgba(0,0,0,.16);
+}
+.note[data-color="yellow"] { --paper: #FFF59D; --strip: #EEDC5B; }
+.note[data-color="blue"]   { --paper: #CBE7FF; --strip: #A7D2F7; }
+.note[data-color="green"]  { --paper: #D2F2C8; --strip: #AEDE9E; }
+.note[data-color="pink"]   { --paper: #FFD6E6; --strip: #F6B3CD; }
+.note[data-color="purple"] { --paper: #E6D9FF; --strip: #CDB8F6; }
+.note[data-color="gray"]   { --paper: #EEEEEE; --strip: #D6D6D6; }
+
+.strip {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 18px; padding: 0 5px; background: var(--strip); border-radius: 3px 3px 0 0;
+  cursor: default; user-select: none;
+}
+.strip button { width: 11px; height: 11px; padding: 0; border: 1px solid rgba(0,0,0,.28); background: transparent; cursor: pointer; }
+.strip .color { border-radius: 1px; }
+.strip .fold { border: 0; width: 13px; height: 13px; font-size: 9px; line-height: 13px; color: rgba(0,0,0,.5); }
+.note.is-folded .content { display: none; }
+.note.is-folded .strip { border-radius: 3px; }
+.note.is-folded .strip::after { content: attr(data-title); font-size: 11px; font-weight: 600; flex: 1; padding-left: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; order: 1; }
+.note.is-folded .strip .fold { order: 2; }
+
+.content { padding: 10px 12px 12px; }
+.content h2 { font: 700 16px/1.25 var(--font); margin: 0 0 8px; }
+.content h2 a { color: inherit; text-decoration: none; }
+.content h2 a:hover { text-decoration: underline; }
+
+ul.dates { list-style: none; margin: 0; padding: 0; }
+ul.dates li { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; padding: 6px 0; border-top: 1px dashed var(--faint); }
+ul.dates li:first-child { border-top: 0; padding-top: 0; }
+.when { font-weight: 600; }
+.when .new { font-weight: 700; font-size: 10px; padding: 1px 5px; margin-left: 4px; border-radius: 3px; background: var(--ink); color: var(--paper); vertical-align: 1px; }
+.venue { grid-column: 1; color: var(--soft); }
+.venue a { color: inherit; text-decoration: none; }
+.venue a:hover { text-decoration: underline; }
+.marks { grid-column: 2; grid-row: 1 / span 2; display: flex; gap: 2px; align-items: flex-start; }
+.marks button {
+  width: 24px; height: 24px; border: 0; border-radius: 5px; background: transparent; color: var(--soft);
+  font: 14px/24px var(--font); cursor: pointer; padding: 0;
+}
+.marks button:hover { background: var(--faint); color: var(--ink); }
+.marks button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+li.is-hidden { opacity: .45; }
+
+.foot { display: flex; justify-content: space-between; align-items: baseline; margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--faint); }
+.foot a { color: var(--ink); font-weight: 600; }
+.foot span { color: var(--soft); }
+.quiet { color: var(--soft); margin: 0; }
+.error { margin: 6px 0 0; font-weight: 600; }
+
+.empty { color: var(--board-text); opacity: .75; padding: 12px 4px; }
+.legend { padding: 0 20px 24px; opacity: .65; font-size: 12px; }
+
+:focus-visible { outline: 2px solid #0A64D8; outline-offset: 1px; }
+@media (max-width: 520px) { .bar .checked { width: 100%; order: 9; } .bar input[type=search] { flex: 1; } }
+@media (prefers-reduced-motion: no-preference) { .note { transition: box-shadow .15s; } .note:hover { box-shadow: 0 1px 1px rgba(0,0,0,.08), 0 10px 22px rgba(0,0,0,.22); } }
+</style>
+</head>
+<body>
+<div class="bar">
+  <h1>Plays</h1>
+  <span class="checked" id="status">Loading…</span>
+  <div class="seg" role="group" aria-label="Show">
+    <button type="button" data-view="all" aria-pressed="true">All</button>
+    <button type="button" data-view="interested" aria-pressed="false">★ Interested</button>
+    <button type="button" data-view="bought" aria-pressed="false">✓ Bought</button>
+  </div>
+  <input id="search" type="search" placeholder="Search" aria-label="Search plays or venues">
+  <label><input type="checkbox" id="showHidden"> Show hidden</label>
+  <span id="links" hidden><a id="addLink" href="#" target="_blank" rel="noopener">Add plays</a> &nbsp; <a id="runLink" href="#" target="_blank" rel="noopener">Check now</a></span>
+</div>
+
+<main class="board" id="board"></main>
+<p class="legend">★ interested &nbsp; ✓ tickets bought &nbsp; – hide this date. Click a note's top strip to fold it, and the small square to change its color.</p>
+
+<script>
+const STATUS_KEY = "theatre-status-v1";   // same key as before, so earlier marks carry over
+const NOTE_KEY = "theatre-notes-v1";      // per-note color and folded state
+const COLORS = ["yellow", "blue", "green", "pink", "purple", "gray"];
+const NEW_DAYS = 3;
+let data = null, view = "all";
+let statuses = read(STATUS_KEY), notes = read(NOTE_KEY);
+
+function read(k) { try { return JSON.parse(localStorage.getItem(k)) || {}; } catch { return {}; } }
+function write(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+const keyOf = (play, s) => `${play.url}|${s.date}|${s.time}|${s.venue}`;
+const esc = str => String(str ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function todayISO() { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; }
+function asDate(iso) { const [y,m,d] = iso.split("-").map(Number); return new Date(y, m-1, d); }
+function daysUntil(iso) { return Math.round((asDate(iso) - asDate(todayISO())) / 86400000); }
+
+function setUpLinks() {
+  const host = location.hostname;
+  if (!host.endsWith(".github.io")) return;
+  const user = host.replace(".github.io", "");
+  const repo = location.pathname.split("/").filter(Boolean)[0] || `${user}.github.io`;
+  const base = `https://github.com/${user}/${repo}`;
+  document.getElementById("addLink").href = `${base}/edit/main/plays.txt`;
+  document.getElementById("runLink").href = `${base}/actions/workflows/update.yml`;
+  document.getElementById("links").hidden = false;
+}
+
+async function load() {
+  setUpLinks();
+  try {
+    const res = await fetch(`data.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(res.status);
+    data = await res.json();
+  } catch {
+    document.getElementById("status").textContent = "Couldn't load the list. Open this page from its GitHub Pages address.";
+    return;
+  }
+  const t = new Date(data.updated_at);
+  document.getElementById("status").textContent =
+    `Checked ${t.toLocaleString(undefined, { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })}`;
+  render();
+}
+
+function render() {
+  const q = document.getElementById("search").value.trim().toLocaleLowerCase("tr");
+  const showHidden = document.getElementById("showHidden").checked;
+  const today = todayISO();
+
+  const cards = data.plays.map((play, i) => {
+    const rows = play.sessions
+      .filter(s => s.date >= today)
+      .map(s => ({ s, key: keyOf(play, s), status: statuses[keyOf(play, s)] || "" }))
+      .filter(r => showHidden || r.status !== "hidden")
+      .filter(r => view === "all" || r.status === view)
+      .filter(r => !q || `${play.title} ${r.s.venue} ${r.s.city}`.toLocaleLowerCase("tr").includes(q))
+      .sort((a, b) => (a.s.date + a.s.time).localeCompare(b.s.date + b.s.time));
+    const upcoming = play.sessions.some(s => s.date >= today);
+    return { play, i, rows, upcoming, next: rows[0]?.s.date || "9999" };
+  })
+  // with a filter or search on, only show notes that still have matching dates
+  .filter(c => (view === "all" && !q) ? true : c.rows.length > 0)
+  .sort((a, b) => a.next.localeCompare(b.next));
+
+  const board = document.getElementById("board");
+  if (!cards.length) {
+    const msg = q ? "No plays or venues match your search."
+      : view === "interested" ? "Nothing starred yet. Press ★ next to a date you might want to see."
+      : view === "bought" ? "No tickets marked yet. Press ✓ next to a date after you buy."
+      : "You're not following any plays yet. Use Add plays to paste a tiyatrolar.com.tr link.";
+    board.innerHTML = `<p class="empty">${msg}</p>`;
+    return;
+  }
+
+  board.innerHTML = cards.map(({ play, i, rows, upcoming }) => {
+    const pref = notes[play.url] || {};
+    const color = pref.color || COLORS[i % 5];
+    const next = rows.find(r => r.status !== "hidden");
+    let body;
+    if (rows.length) {
+      body = `<ul class="dates">${rows.map(({ s, key, status }) => {
+        const d = asDate(s.date);
+        const isNew = (Date.now() - new Date(s.first_seen)) / 86400000 < NEW_DAYS;
+        const where = [s.venue, s.city].filter(Boolean).join(", ") || "Venue not listed";
+        const btn = (set, sym, label) =>
+          `<button type="button" data-key="${esc(key)}" data-set="${set}" aria-pressed="${status === set}" aria-label="${label}" title="${label}">${sym}</button>`;
+        return `<li class="${status ? "is-" + status : ""}">
+          <span class="when">${esc(d.toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short" }))}, ${esc(s.time)}${isNew ? '<span class="new">new</span>' : ""}</span>
+          <span class="venue">${s.venue_url ? `<a href="${esc(s.venue_url)}" target="_blank" rel="noopener">${esc(where)}</a>` : esc(where)}</span>
+          <span class="marks">
+            ${btn("interested", "★", "Interested")}${btn("bought", "✓", "Tickets bought")}${btn("hidden", "–", status === "hidden" ? "Unhide" : "Hide this date")}
+          </span></li>`;
+      }).join("")}</ul>`;
+    } else {
+      body = `<p class="quiet">${upcoming ? "All upcoming dates are hidden." : "No dates announced yet. Checked every morning."}</p>`;
+    }
+    const n = next ? daysUntil(next.s.date) : null;
+    const soon = n === null ? "" : n === 0 ? "Next: today" : n === 1 ? "Next: tomorrow" : `Next in ${n} days`;
+    return `<article class="note ${pref.folded ? "is-folded" : ""}" data-color="${color}" data-url="${esc(play.url)}">
+      <div class="strip" data-title="${esc(play.title)}">
+        <button type="button" class="color" data-act="color" aria-label="Change note color" title="Change color"></button>
+        <button type="button" class="fold" data-act="fold" aria-label="${pref.folded ? "Unfold" : "Fold"} note" aria-expanded="${!pref.folded}">${pref.folded ? "▸" : "▾"}</button>
+      </div>
+      <div class="content">
+        <h2><a href="${esc(play.url)}" target="_blank" rel="noopener">${esc(play.title)}</a></h2>
+        ${body}
+        ${play.error ? `<p class="error">${esc(play.error)}</p>` : ""}
+        <div class="foot"><a href="${esc(play.ticket_url)}" target="_blank" rel="noopener">Buy tickets</a><span>${soon}</span></div>
+      </div>
+    </article>`;
+  }).join("");
+}
+
+document.getElementById("board").addEventListener("click", e => {
+  const mark = e.target.closest("button[data-key]");
+  if (mark) {
+    const { key, set } = mark.dataset;
+    if (statuses[key] === set) delete statuses[key]; else statuses[key] = set;
+    write(STATUS_KEY, statuses); render(); return;
+  }
+  const strip = e.target.closest(".strip");
+  if (!strip) return;
+  const note = strip.closest(".note");
+  const url = note.dataset.url;
+  const pref = notes[url] || (notes[url] = {});
+  if (e.target.closest("[data-act=color]")) {
+    pref.color = COLORS[(COLORS.indexOf(note.dataset.color) + 1) % COLORS.length];
+  } else {
+    pref.folded = !pref.folded;   // clicking anywhere on the strip folds, like Stickies
+  }
+  write(NOTE_KEY, notes); render();
+});
+document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
+  view = b.dataset.view;
+  document.querySelectorAll(".seg button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  render();
+}));
+document.getElementById("search").addEventListener("input", () => data && render());
+document.getElementById("showHidden").addEventListener("change", () => data && render());
+load();
+</script>
+</body>
+</html>
