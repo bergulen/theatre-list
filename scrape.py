@@ -1,6 +1,6 @@
 """
-Reads the play pages listed in plays.txt from tiyatrolar.com.tr,
-pulls every performance (date, time, venue) from the "Seanslar" section,
+Reads the play pages listed in plays.txt (tiyatrolar.com.tr or bubilet.com.tr),
+pulls every performance (date, time, venue) from each page,
 and writes the combined result to data.json for the web page to show.
 """
 
@@ -125,9 +125,7 @@ def parse_sessions(soup):
     return unique
 
 
-def parse_play(url, html):
-    soup = BeautifulSoup(html, "html.parser")
-
+def parse_tiyatrolar(url, soup):
     title = meta(soup, "og:title") or (soup.title.string if soup.title else url)
     title = title.split("|")[0].strip()
 
@@ -140,6 +138,122 @@ def parse_play(url, html):
         "sessions": parse_sessions(soup),
         "error": None,
     }
+
+
+# ---------- Bubilet ----------
+# Example date heading: "25 Eylül, Cuma•20:30" (no year on the page)
+TR_MONTHS = {
+    "ocak": 1, "şubat": 2, "mart": 3, "nisan": 4, "mayıs": 5, "haziran": 6,
+    "temmuz": 7, "ağustos": 8, "eylül": 9, "ekim": 10, "kasım": 11, "aralık": 12,
+}
+BUBILET_DATE_RE = re.compile(
+    r"^(\d{1,2})\s+(" + "|".join(TR_MONTHS) + r")\s*,?\s*([^\d\s•·,]+)?\s*[•·]?\s*(\d{1,2})[:.](\d{2})",
+    re.IGNORECASE,
+)
+# lines under a date that are labels or prices, not the venue name
+BUBILET_NOT_VENUE = re.compile(
+    r"₺|^biletler$|koltuk|numarasız|tükendi|satışta|çekimli|yakında|son biletler|indirim",
+    re.IGNORECASE,
+)
+
+
+def city_from_bubilet_url(url):
+    m = re.search(r"bubilet\.com\.tr/([^/]+)/etkinlik/", url)
+    if not m:
+        return ""
+    slug = m.group(1).replace("-", " ")
+    return ("İ" + slug[1:]) if slug.startswith("i") else slug.capitalize()
+
+
+def bubilet_start_year(soup):
+    start = meta(soup, "event:start_time")
+    if start and re.match(r"\d{4}-", start):
+        return int(start[:4]), int(start[5:7])
+    return None
+
+
+def parse_bubilet(url, soup):
+    h1 = soup.find("h1")
+    title = h1.get_text(" ", strip=True) if h1 else (meta(soup, "og:title") or url)
+    title = re.sub(r"\s+İstanbul\s+Biletleri$", "", title).strip()
+    city = city_from_bubilet_url(url)
+
+    # The page gives day and month only. Work out the year from the first
+    # performance's full date in the page data, then add a year whenever the
+    # month goes backwards (e.g. December -> January).
+    today = datetime.now(timezone.utc).date()
+    anchor = bubilet_start_year(soup)
+    year, last_month = (anchor[0], anchor[1]) if anchor else (today.year, None)
+
+    sessions = []
+    for h in soup.find_all(re.compile(r"^h[1-6]$")):
+        m = BUBILET_DATE_RE.match(h.get_text(" ", strip=True))
+        if not m:
+            continue
+        day, month_name, weekday, hh, mm = m.groups()
+        month = TR_MONTHS[month_name.lower()]
+        if last_month is None:
+            # no anchor: assume a date far in the past means next year
+            if (today.month - month) > 2:
+                year += 1
+        elif month < last_month:
+            year += 1
+        last_month = month
+
+        # the venue is the last plain line before the price; the "Biletler"
+        # link after it opens the ticket page for that date
+        venue, link, past_price = "", "", False
+        for node in h.next_elements:
+            if isinstance(node, Tag):
+                if re.match(r"^h[1-6]$", node.name or ""):
+                    break
+                if node.name == "a" and "/seans/" in (node.get("href") or "") and node.get_text(strip=True):
+                    link = node["href"]
+                    break
+            elif isinstance(node, NavigableString) and not isinstance(node, Comment):
+                if past_price or (node.parent and node.parent.name in ("script", "style")):
+                    continue
+                if h in node.parents:
+                    continue
+                text = str(node).strip()
+                if not text:
+                    continue
+                if re.search(r"₺|^biletler$|tükendi", text, re.IGNORECASE):
+                    past_price = True
+                elif not BUBILET_NOT_VENUE.search(text):
+                    venue = text
+
+        sessions.append({
+            "date": f"{year}-{month:02d}-{int(day):02d}",
+            "weekday_tr": (weekday or "").strip(),
+            "time": f"{int(hh):02d}:{mm}",
+            "venue": venue,
+            "city": city,
+            "venue_url": link,   # opens the ticket page for that date
+        })
+
+    seen, unique = set(), []
+    for s in sessions:
+        key = (s["date"], s["time"], s["venue"])
+        if key not in seen:
+            seen.add(key)
+            unique.append(s)
+
+    return {
+        "url": url,
+        "title": title,
+        "image": meta(soup, "og:image"),
+        "ticket_url": url,
+        "sessions": unique,
+        "error": None,
+    }
+
+
+def parse_play(url, html):
+    soup = BeautifulSoup(html, "html.parser")
+    if "bubilet.com.tr" in url:
+        return parse_bubilet(url, soup)
+    return parse_tiyatrolar(url, soup)
 
 
 def session_key(s):
