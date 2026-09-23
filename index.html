@@ -105,6 +105,43 @@ li.is-hidden { opacity: .45; }
 .error { margin: 6px 0 0; font-weight: 600; }
 
 .empty { color: var(--board-text); opacity: .75; padding: 12px 4px; }
+
+.newnote {
+  font: 600 12px var(--font); color: #1D1D1F; background: #FFF59D; cursor: pointer;
+  border: 1px solid rgba(0,0,0,.18); border-radius: 6px; padding: 4px 10px;
+}
+.newnote:hover { background: #FFEF73; }
+.strip .edit { border: 0; width: auto; height: 13px; padding: 0 4px; font: 600 10px/13px var(--font); color: rgba(0,0,0,.55); margin-left: auto; margin-right: 4px; }
+.strip .edit:hover { color: #000; }
+.mine { color: var(--soft); }
+
+/* The form for adding your own note, drawn as a sticky */
+dialog.editor { border: 0; padding: 0; width: min(540px, 94vw); border-radius: 3px; color: var(--ink);
+  background: #FFF59D; box-shadow: 0 2px 4px rgba(0,0,0,.12), 0 18px 40px rgba(0,0,0,.35); }
+dialog.editor::backdrop { background: rgba(0,0,0,.28); }
+dialog.editor .strip { --strip: #EEDC5B; background: var(--strip); padding: 0 8px; font: 600 11px/18px var(--font); }
+dialog.editor .content { padding: 14px 16px 16px; }
+dialog.editor h2 { margin: 0 0 12px; }
+.field { display: block; margin: 0 0 12px; font-weight: 600; }
+.field span { display: block; margin-bottom: 4px; }
+.field small { font-weight: 400; color: var(--soft); }
+.editor input {
+  font: 13px var(--font); color: var(--ink); background: rgba(255,255,255,.65);
+  border: 1px solid rgba(0,0,0,.18); border-radius: 5px; padding: 6px 8px; width: 100%; min-width: 0;
+}
+.editor fieldset { border: 0; margin: 0 0 12px; padding: 0; }
+.editor legend { font-weight: 600; padding: 0; margin-bottom: 4px; }
+.daterow { display: grid; grid-template-columns: 1.15fr 1fr 1.5fr 26px; gap: 6px; margin-bottom: 6px; }
+.daterow .remove { border: 0; background: transparent; font-size: 16px; cursor: pointer; color: var(--soft); border-radius: 5px; }
+.daterow .remove:hover { background: var(--faint); color: var(--ink); }
+.linkbtn { border: 0; background: none; padding: 2px 0; font: 600 12px var(--font); color: var(--ink); text-decoration: underline; cursor: pointer; }
+.formerror { margin: 0 0 10px; font-weight: 600; color: #9B1C1C; }
+.formactions { display: flex; gap: 8px; align-items: center; padding-top: 12px; border-top: 1px solid var(--faint); }
+.formactions .spacer { flex: 1; }
+.formactions button { font: 600 13px var(--font); border-radius: 6px; padding: 6px 12px; cursor: pointer; border: 1px solid rgba(0,0,0,.2); background: rgba(255,255,255,.6); color: var(--ink); }
+.formactions .primary { background: var(--ink); color: #FFF59D; border-color: var(--ink); }
+.formactions .danger { border: 0; background: none; color: #9B1C1C; padding-left: 0; text-decoration: underline; }
+@media (max-width: 460px) { .daterow { grid-template-columns: 1fr 1fr 26px; } .daterow .venuein { grid-column: 1 / 3; } }
 .legend { padding: 0 20px 24px; opacity: .65; font-size: 12px; }
 
 :focus-visible { outline: 2px solid #0A64D8; outline-offset: 1px; }
@@ -115,6 +152,7 @@ li.is-hidden { opacity: .45; }
 <body>
 <div class="bar">
   <h1>Plays</h1>
+  <button type="button" class="newnote" id="newNote">+ New note</button>
   <span class="checked" id="status">Loading…</span>
   <div class="seg" role="group" aria-label="Show">
     <button type="button" data-view="all" aria-pressed="true">All</button>
@@ -127,7 +165,30 @@ li.is-hidden { opacity: .45; }
 </div>
 
 <main class="board" id="board"></main>
-<p class="legend">★ interested &nbsp; ✓ tickets bought &nbsp; – hide this date. Click a note's top strip to fold it, and the small square to change its color.</p>
+<p class="legend">★ interested &nbsp; ✓ tickets bought &nbsp; – hide this date. Click a note's top strip to fold it, and the small square to change its color. Use + New note for plays that aren't on tiyatrolar.com.tr.</p>
+
+<dialog class="editor" id="editor" aria-labelledby="editorTitle">
+  <form id="editorForm" novalidate>
+    <div class="strip">Your own note</div>
+    <div class="content">
+      <h2 id="editorTitle">New note</h2>
+      <label class="field"><span>Play name</span><input name="title" autocomplete="off"></label>
+      <label class="field"><span>Ticket or info link <small>(optional)</small></span><input name="ticket" type="url" placeholder="https://" autocomplete="off"></label>
+      <fieldset>
+        <legend>Dates</legend>
+        <div id="dateRows"></div>
+        <button type="button" class="linkbtn" id="addRow">Add another date</button>
+      </fieldset>
+      <p class="formerror" id="formError" hidden></p>
+      <div class="formactions">
+        <button type="button" class="danger" id="deleteNote" hidden>Delete note</button>
+        <span class="spacer"></span>
+        <button type="button" id="cancelNote">Cancel</button>
+        <button type="submit" class="primary">Save note</button>
+      </div>
+    </div>
+  </form>
+</dialog>
 
 <script>
 const STATUS_KEY = "theatre-status-v1";   // same key as before, so earlier marks carry over
@@ -135,6 +196,9 @@ const NOTE_KEY = "theatre-notes-v1";      // per-note color and folded state
 const COLORS = ["yellow", "blue", "green", "pink", "purple", "gray"];
 const NEW_DAYS = 3;
 let data = null, view = "all";
+const MANUAL_KEY = "theatre-manual-v1";   // notes you add yourself, kept in this browser
+let manual = (() => { try { const v = JSON.parse(localStorage.getItem(MANUAL_KEY)); return Array.isArray(v) ? v : []; } catch { return []; } })();
+let editingId = null;
 let statuses = read(STATUS_KEY), notes = read(NOTE_KEY);
 
 function read(k) { try { return JSON.parse(localStorage.getItem(k)) || {}; } catch { return {}; } }
@@ -163,7 +227,9 @@ async function load() {
     if (!res.ok) throw new Error(res.status);
     data = await res.json();
   } catch {
-    document.getElementById("status").textContent = "Couldn't load the list. Open this page from its GitHub Pages address.";
+    document.getElementById("status").textContent = "Couldn't load the followed plays. Open this page from its GitHub Pages address.";
+    data = { plays: [] };
+    render();
     return;
   }
   const t = new Date(data.updated_at);
@@ -177,7 +243,8 @@ function render() {
   const showHidden = document.getElementById("showHidden").checked;
   const today = todayISO();
 
-  const cards = data.plays.map((play, i) => {
+  const mine = manual.map(m => ({ ...m, url: "manual:" + m.id, manual: true }));
+  const cards = [...data.plays, ...mine].map((play, i) => {
     const rows = play.sessions
       .filter(s => s.date >= today)
       .map(s => ({ s, key: keyOf(play, s), status: statuses[keyOf(play, s)] || "" }))
@@ -210,32 +277,33 @@ function render() {
     if (rows.length) {
       body = `<ul class="dates">${rows.map(({ s, key, status }) => {
         const d = asDate(s.date);
-        const isNew = (Date.now() - new Date(s.first_seen)) / 86400000 < NEW_DAYS;
+        const isNew = !play.manual && (Date.now() - new Date(s.first_seen)) / 86400000 < NEW_DAYS;
         const where = [s.venue, s.city].filter(Boolean).join(", ") || "Venue not listed";
         const btn = (set, sym, label) =>
           `<button type="button" data-key="${esc(key)}" data-set="${set}" aria-pressed="${status === set}" aria-label="${label}" title="${label}">${sym}</button>`;
         return `<li class="${status ? "is-" + status : ""}">
-          <span class="when">${esc(d.toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short" }))}, ${esc(s.time)}${isNew ? '<span class="new">new</span>' : ""}</span>
+          <span class="when">${esc(d.toLocaleDateString(undefined, { weekday: "short", day: "numeric", month: "short" }))}${s.time ? ", " + esc(s.time) : ""}${isNew ? '<span class="new">new</span>' : ""}</span>
           <span class="venue">${s.venue_url ? `<a href="${esc(s.venue_url)}" target="_blank" rel="noopener">${esc(where)}</a>` : esc(where)}</span>
           <span class="marks">
             ${btn("interested", "★", "Interested")}${btn("bought", "✓", "Tickets bought")}${btn("hidden", "–", status === "hidden" ? "Unhide" : "Hide this date")}
           </span></li>`;
       }).join("")}</ul>`;
     } else {
-      body = `<p class="quiet">${upcoming ? "All upcoming dates are hidden." : "No dates announced yet. Checked every morning."}</p>`;
+      body = `<p class="quiet">${upcoming ? "All upcoming dates are hidden." : play.manual ? "All dates on this note have passed. Edit it to add new ones, or delete it." : "No dates announced yet. Checked every morning."}</p>`;
     }
     const n = next ? daysUntil(next.s.date) : null;
     const soon = n === null ? "" : n === 0 ? "Next: today" : n === 1 ? "Next: tomorrow" : `Next in ${n} days`;
     return `<article class="note ${pref.folded ? "is-folded" : ""}" data-color="${color}" data-url="${esc(play.url)}">
       <div class="strip" data-title="${esc(play.title)}">
         <button type="button" class="color" data-act="color" aria-label="Change note color" title="Change color"></button>
+        ${play.manual ? `<button type="button" class="edit" data-act="edit" data-id="${esc(play.id)}" aria-label="Edit note">Edit</button>` : ""}
         <button type="button" class="fold" data-act="fold" aria-label="${pref.folded ? "Unfold" : "Fold"} note" aria-expanded="${!pref.folded}">${pref.folded ? "▸" : "▾"}</button>
       </div>
       <div class="content">
-        <h2><a href="${esc(play.url)}" target="_blank" rel="noopener">${esc(play.title)}</a></h2>
+        <h2>${play.manual ? (play.ticket_url ? `<a href="${esc(play.ticket_url)}" target="_blank" rel="noopener">${esc(play.title)}</a>` : esc(play.title)) : `<a href="${esc(play.url)}" target="_blank" rel="noopener">${esc(play.title)}</a>`}</h2>
         ${body}
         ${play.error ? `<p class="error">${esc(play.error)}</p>` : ""}
-        <div class="foot"><a href="${esc(play.ticket_url)}" target="_blank" rel="noopener">Buy tickets</a><span>${soon}</span></div>
+        <div class="foot">${play.ticket_url ? `<a href="${esc(play.ticket_url)}" target="_blank" rel="noopener">Buy tickets</a>` : `<span class="mine">Added by you</span>`}<span>${soon}</span></div>
       </div>
     </article>`;
   }).join("");
@@ -253,6 +321,8 @@ document.getElementById("board").addEventListener("click", e => {
   const note = strip.closest(".note");
   const url = note.dataset.url;
   const pref = notes[url] || (notes[url] = {});
+  const edit = e.target.closest("[data-act=edit]");
+  if (edit) { openEditor(edit.dataset.id); return; }
   if (e.target.closest("[data-act=color]")) {
     pref.color = COLORS[(COLORS.indexOf(note.dataset.color) + 1) % COLORS.length];
   } else {
@@ -265,6 +335,91 @@ document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click"
   document.querySelectorAll(".seg button").forEach(x => x.setAttribute("aria-pressed", x === b));
   render();
 }));
+const editor = document.getElementById("editor");
+const form = document.getElementById("editorForm");
+const rowsBox = document.getElementById("dateRows");
+const formError = document.getElementById("formError");
+
+function addDateRow(s = {}) {
+  const prevVenue = rowsBox.lastElementChild?.querySelector(".venuein")?.value || "";
+  const row = document.createElement("div");
+  row.className = "daterow";
+  row.innerHTML = `
+    <input type="date" class="datein" aria-label="Date" value="${esc(s.date || "")}">
+    <input type="time" class="timein" aria-label="Time" value="${esc(s.time || "")}">
+    <input type="text" class="venuein" aria-label="Venue" placeholder="Venue" value="${esc(s.venue ?? prevVenue)}">
+    <button type="button" class="remove" aria-label="Remove this date" title="Remove this date">–</button>`;
+  rowsBox.appendChild(row);
+  return row;
+}
+
+function openEditor(id = null) {
+  editingId = id;
+  const note = id ? manual.find(m => m.id === id) : null;
+  document.getElementById("editorTitle").textContent = note ? "Edit note" : "New note";
+  form.title.value = note?.title || "";
+  form.ticket.value = note?.ticket_url || "";
+  rowsBox.innerHTML = "";
+  (note?.sessions?.length ? note.sessions : [{}]).forEach(s => addDateRow(s));
+  document.getElementById("deleteNote").hidden = !note;
+  formError.hidden = true;
+  editor.showModal();
+  form.title.focus();
+}
+
+function saveManual() {
+  try { localStorage.setItem(MANUAL_KEY, JSON.stringify(manual)); } catch {}
+}
+
+document.getElementById("newNote").addEventListener("click", () => openEditor());
+document.getElementById("addRow").addEventListener("click", () => addDateRow().querySelector(".datein").focus());
+rowsBox.addEventListener("click", e => {
+  const btn = e.target.closest(".remove");
+  if (!btn) return;
+  btn.closest(".daterow").remove();
+  if (!rowsBox.children.length) addDateRow();
+});
+document.getElementById("cancelNote").addEventListener("click", () => editor.close());
+document.getElementById("deleteNote").addEventListener("click", () => {
+  const note = manual.find(m => m.id === editingId);
+  if (!note || !confirm(`Delete the note for "${note.title}"?`)) return;
+  manual = manual.filter(m => m.id !== editingId);
+  delete notes["manual:" + editingId];
+  saveManual(); write(NOTE_KEY, notes);
+  editor.close(); render();
+});
+
+form.addEventListener("input", () => { formError.hidden = true; });
+form.addEventListener("submit", e => {
+  e.preventDefault();
+  const title = form.title.value.trim();
+  let ticket = form.ticket.value.trim();
+  if (ticket && !/^https?:\/\//i.test(ticket)) ticket = "https://" + ticket;
+  const now = new Date().toISOString();
+  const sessions = [...rowsBox.querySelectorAll(".daterow")]
+    .map(r => ({
+      date: r.querySelector(".datein").value,
+      time: r.querySelector(".timein").value,
+      venue: r.querySelector(".venuein").value.trim(),
+      city: "", venue_url: "", first_seen: now,
+    }))
+    .filter(s => s.date)
+    .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+
+  const problem = !title ? "Add the play's name." : !sessions.length ? "Add at least one date." : "";
+  if (problem) { formError.textContent = problem; formError.hidden = false; return; }
+
+  if (editingId) {
+    const note = manual.find(m => m.id === editingId);
+    Object.assign(note, { title, ticket_url: ticket, sessions });
+  } else {
+    manual.push({ id: Date.now().toString(36), title, ticket_url: ticket, sessions, image: null, error: null });
+  }
+  saveManual();
+  editor.close();
+  render();
+});
+
 document.getElementById("search").addEventListener("input", () => data && render());
 document.getElementById("showHidden").addEventListener("change", () => data && render());
 load();
