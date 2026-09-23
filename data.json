@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T13:40:59+00:00",
+  "updated_at": "2026-09-23T15:06:58+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -393,6 +393,357 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/istos-sahne-aznavur",
           "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://www.bubilet.com.tr/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri",
+      "title": "İlker Gümüşoluk - Tek Kişilik Gösteri",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/ilker-gumusoluk-tek-kisilik-gosteri-78513.PNG",
+      "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri",
+      "sessions": [
+        {
+          "date": "2026-09-24",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "1315",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri/seans/257273",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-10-22",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "1096",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri/seans/276960",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-11-04",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "1096",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri/seans/276966",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-11-11",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "1096",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri/seans/280882",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-11-25",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "1315",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri/seans/280886",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-12-17",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "1096",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri/seans/280889",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2027-01-13",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "1096",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri/seans/280892",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://www.bubilet.com.tr/istanbul/etkinlik/meksika-acmazi",
+      "title": "Meksika Açmazı-İyi Misin?",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/meksika-acmazi-80360.png",
+      "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/meksika-acmazi",
+      "sessions": [
+        {
+          "date": "2026-09-25",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278109",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-09-26",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278119",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-09-29",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "1500",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/290220",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-10-07",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278177",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-10-17",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278171",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-11-07",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/290217",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-11-15",
+          "weekday_tr": "Pazar",
+          "time": "20:00",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/289910",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://www.bubilet.com.tr/istanbul/etkinlik/anlatanadam-standup",
+      "title": "Anlatanadam Stand Up",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/anlatanadam-standup-15263.png",
+      "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/anlatanadam-standup",
+      "sessions": [
+        {
+          "date": "2026-10-15",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "950",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/anlatanadam-standup/seans/278108",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-10-29",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "950",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/anlatanadam-standup/seans/283955",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-10-30",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "950",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/anlatanadam-standup/seans/280649",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://www.bubilet.com.tr/istanbul/etkinlik/baba",
+      "title": "Baba",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/baba-20260728172057586-3c4bd39a7bff.png",
+      "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/baba",
+      "sessions": [
+        {
+          "date": "2026-10-15",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "2750",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/baba/seans/286478",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-10-19",
+          "weekday_tr": "Pazartesi",
+          "time": "20:30",
+          "venue": "2750",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/baba/seans/286473",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-10-20",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "2750",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/baba/seans/286477",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://www.bubilet.com.tr/istanbul/etkinlik/sesler-salih-bademci",
+      "title": "Sesler-Salih Bademci",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/sesler-salih-bademci-58101.jpg",
+      "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/sesler-salih-bademci",
+      "sessions": [
+        {
+          "date": "2026-10-07",
+          "weekday_tr": "Çarşamba",
+          "time": "18:00",
+          "venue": "750",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/286879",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-10-07",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "750",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/276467",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-12-06",
+          "weekday_tr": "Pazar",
+          "time": "20:00",
+          "venue": "1150",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/290618",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-12-13",
+          "weekday_tr": "Pazar",
+          "time": "20:30",
+          "venue": "750",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/291424",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://www.bubilet.com.tr/istanbul/etkinlik/balli-sut",
+      "title": "Ballı Süt",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/balli-sut-82189.jpeg",
+      "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/balli-sut",
+      "sessions": [
+        {
+          "date": "2027-09-26",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "1206",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/balli-sut/seans/278892",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2027-11-26",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "1206",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/balli-sut/seans/278880",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://www.bubilet.com.tr/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz",
+      "title": "Alper Kul - Çok Tatlı Bi Hikaye",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz-73978.jpg",
+      "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz",
+      "sessions": [
+        {
+          "date": "2026-10-04",
+          "weekday_tr": "Pazar",
+          "time": "19:30",
+          "venue": "660",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/283522",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-10-21",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "800",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/287620",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-11-27",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "800",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/287592",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-12-15",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "750",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/289816",
+          "first_seen": "2026-09-23T15:06:58+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://www.bubilet.com.tr/istanbul/etkinlik/devlerin-savasi-",
+      "title": "Devlerin Savaşı",
+      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/devlerin-savasi-20260714140040093-156bfa6135d0.jpg",
+      "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/devlerin-savasi-",
+      "sessions": [
+        {
+          "date": "2026-10-31",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "1650",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/devlerin-savasi-/seans/285668",
+          "first_seen": "2026-09-23T15:06:58+00:00"
         }
       ],
       "error": null
