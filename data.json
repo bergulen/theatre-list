@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T13:34:44+00:00",
+  "updated_at": "2026-09-23T13:40:59+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -87,6 +87,312 @@
           "city": "",
           "venue_url": "",
           "first_seen": "2026-09-23T13:34:44+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/tebdil",
+      "title": "Tebdil",
+      "image": "https://tiyatrolar.com.tr/files/activity/t/tebdil/image/tebdil.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/tebdil",
+      "sessions": [
+        {
+          "date": "2026-10-09",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Perispri Art Gallery",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/perispri",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-10-16",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Alan Kadıköy",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/tut-elimden-rovni",
+      "title": "Tut Elimden Rovni",
+      "image": "https://tiyatrolar.com.tr/files/activity/t/tut-elimden-rovni/image/tut-elimden-rovni.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/tut-elimden-rovni",
+      "sessions": [
+        {
+          "date": "2026-10-03",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "Kadıköy Barış Manço Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-baris-manco-kultur-merkezi",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-10-07",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Caddebostan Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-kultur-merkezi",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-10-14",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Tiyatro Keyfi Lab - Savaş Başar Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-keyfi-lab-savas-basar-sahnesi",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/donme-dolap-4",
+      "title": "Dönme Dolap",
+      "image": "https://tiyatrolar.com.tr/files/activity/d/donme-dolap-4/image/donme-dolap-4.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/donme-dolap-4",
+      "sessions": [
+        {
+          "date": "2026-09-26",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "Koma Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/koma-sahnesi",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-10-13",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "Eksi On Altı Mekan",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/eksi-on-alti-mekan",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/98lik-kiyamet",
+      "title": "9/8'lik Kıyamet",
+      "image": "https://tiyatrolar.com.tr/files/activity/9/98lik-kiyamet/image/98lik-kiyamet.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/98lik-kiyamet",
+      "sessions": [
+        {
+          "date": "2026-10-28",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Alan Kadıköy",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/sevgi-soysal-yasamakta-israr-ediyor",
+      "title": "Sevgi Soysal Yaşamakta Israr Ediyor",
+      "image": "https://tiyatrolar.com.tr/files/activity/s/sevgi-soysal-yasamakta-israr-ediyor/image/sevgi-soysal-yasamakta-israr-ediyor.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/sevgi-soysal-yasamakta-israr-ediyor",
+      "sessions": [
+        {
+          "date": "2026-09-30",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Kült Teras",
+          "city": "Ankara",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/ankara/kult-teras",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-10-10",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "Sahne Pulchérie",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/sahne-pulchrie",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-12-10",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Acıbadem Universitesi ACU Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/acibadem-universitesi-acu-sahne",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/filler-ve-karincalar",
+      "title": "Filler ve Karıncalar",
+      "image": "https://tiyatrolar.com.tr/files/activity/f/filler-ve-karincalar/image/filler-ve-karincalar.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/filler-ve-karincalar",
+      "sessions": [
+        {
+          "date": "2026-10-15",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Cihangir Atölye Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/cihangir-atolye-sahnesi",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-10-16",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Cihangir Atölye Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/cihangir-atolye-sahnesi",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-10-17",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "Fişekhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/fisekhane",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-10-21",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Alan Kadıköy",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/mori",
+      "title": "Mori",
+      "image": "https://tiyatrolar.com.tr/files/activity/m/mori/image/mori.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/mori",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Pax Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/pax-sahne",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-12-04",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Pax Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/pax-sahne",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/iki-kent-arasinda-bir-bar-masasinda",
+      "title": "İki Kent Arasında Bir Bar Masasında",
+      "image": "https://tiyatrolar.com.tr/files/activity/i/iki-kent-arasinda-bir-bar-masasinda/image/iki-kent-arasinda-bir-bar-masasinda.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/iki-kent-arasinda-bir-bar-masasinda",
+      "sessions": [
+        {
+          "date": "2026-10-22",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Rebel Kadıköy",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/rebel-kadikoy",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/yetim",
+      "title": "Yetim",
+      "image": "https://tiyatrolar.com.tr/files/activity/y/yetim/image/yetim.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/yetim",
+      "sessions": [
+        {
+          "date": "2026-10-01",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Eksi On Altı Mekan",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/eksi-on-alti-mekan",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/yas-dedigin",
+      "title": "Yaş Dediğin",
+      "image": "https://tiyatrolar.com.tr/files/activity/y/yas-dedigin/image/yas-dedigin.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/yas-dedigin",
+      "sessions": [
+        {
+          "date": "2026-10-08",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Asmalı Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/asmali-sahne",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/leke",
+      "title": "Leke",
+      "image": "https://tiyatrolar.com.tr/files/activity/l/leke/image/leke.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/leke",
+      "sessions": [
+        {
+          "date": "2026-10-08",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Kadıköy Barış Manço Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-baris-manco-kultur-merkezi",
+          "first_seen": "2026-09-23T13:40:59+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/kirildigimiz-yerde-bi-bosluk",
+      "title": "Kırıldığımız Yerde Bi' Boşluk",
+      "image": "https://tiyatrolar.com.tr/files/activity/k/kirildigimiz-yerde-bi-bosluk/image/kirildigimiz-yerde-bi-bosluk.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/kirildigimiz-yerde-bi-bosluk",
+      "sessions": [
+        {
+          "date": "2026-10-11",
+          "weekday_tr": "Pazar",
+          "time": "17:00",
+          "venue": "istos sahne aznavur",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/istos-sahne-aznavur",
+          "first_seen": "2026-09-23T13:40:59+00:00"
         }
       ],
       "error": null
