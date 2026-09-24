@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T15:06:58+00:00",
+  "updated_at": "2026-09-24T08:52:21+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -50,7 +50,7 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-pavyon",
       "title": "Monologlar Müzesi Pavyon",
       "image": "https://tiyatrolar.com.tr/files/activity/m/monologlar-muzesi-pavyon/image/monologlar-muzesi-pavyon.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-pavyon",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-pavyon",
       "sessions": [
         {
           "date": "2026-09-28",
@@ -87,6 +87,24 @@
           "city": "",
           "venue_url": "",
           "first_seen": "2026-09-23T13:34:44+00:00"
+        },
+        {
+          "date": "2026-11-16",
+          "weekday_tr": "Pazartesi",
+          "time": "20:30",
+          "venue": "Monologlar Müzesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
+          "first_seen": "2026-09-24T08:52:21+00:00"
+        },
+        {
+          "date": "2026-11-19",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Monologlar Müzesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
+          "first_seen": "2026-09-24T08:52:21+00:00"
         }
       ],
       "error": null
@@ -573,6 +591,15 @@
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/anlatanadam-standup/seans/280649",
           "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-11-01",
+          "weekday_tr": "Pazar",
+          "time": "18:00",
+          "venue": "950",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/anlatanadam-standup/seans/291370",
+          "first_seen": "2026-09-24T08:52:21+00:00"
         }
       ],
       "error": null
