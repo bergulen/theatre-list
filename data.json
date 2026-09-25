@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T08:52:21+00:00",
+  "updated_at": "2026-09-25T09:12:55+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -34,6 +34,15 @@
       "image": "https://tiyatrolar.com.tr/files/activity/o/odenmeyecek-odemiyoruz-2/image/odenmeyecek-odemiyoruz-2.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/odenmeyecek-odemiyoruz-2",
       "sessions": [
+        {
+          "date": "2026-11-21",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "Fişekhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/fisekhane",
+          "first_seen": "2026-09-25T09:12:55+00:00"
+        },
         {
           "date": "2026-11-28",
           "weekday_tr": "Cumartesi",
@@ -206,6 +215,15 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/98lik-kiyamet",
       "sessions": [
         {
+          "date": "2026-10-11",
+          "weekday_tr": "Pazar",
+          "time": "20:00",
+          "venue": "Moda Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/moda-sahnesi",
+          "first_seen": "2026-09-25T09:12:55+00:00"
+        },
+        {
           "date": "2026-10-28",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
@@ -213,6 +231,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
           "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-11-11",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Zorlu PSM",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/zorlu-center-psm",
+          "first_seen": "2026-09-25T09:12:55+00:00"
         }
       ],
       "error": null
@@ -422,15 +449,6 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri",
       "sessions": [
         {
-          "date": "2026-09-24",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "1315",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri/seans/257273",
-          "first_seen": "2026-09-23T15:06:58+00:00"
-        },
-        {
           "date": "2026-10-22",
           "weekday_tr": "Perşembe",
           "time": "20:30",
@@ -506,10 +524,10 @@
           "date": "2026-09-26",
           "weekday_tr": "Cumartesi",
           "time": "20:30",
-          "venue": "1250",
+          "venue": "1750",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278119",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-09-25T09:12:55+00:00"
         },
         {
           "date": "2026-09-29",
