@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T09:12:55+00:00",
+  "updated_at": "2026-09-26T08:56:23+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -511,15 +511,6 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/meksika-acmazi-80360.png",
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/meksika-acmazi",
       "sessions": [
-        {
-          "date": "2026-09-25",
-          "weekday_tr": "Cuma",
-          "time": "20:30",
-          "venue": "1250",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278109",
-          "first_seen": "2026-09-23T15:06:58+00:00"
-        },
         {
           "date": "2026-09-26",
           "weekday_tr": "Cumartesi",
