@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T08:56:23+00:00",
+  "updated_at": "2026-09-27T09:40:11+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -188,15 +188,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/donme-dolap-4",
       "sessions": [
         {
-          "date": "2026-09-26",
-          "weekday_tr": "Cumartesi",
-          "time": "20:30",
-          "venue": "Koma Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/koma-sahnesi",
-          "first_seen": "2026-09-23T13:40:59+00:00"
-        },
-        {
           "date": "2026-10-13",
           "weekday_tr": "Salı",
           "time": "20:30",
@@ -290,10 +281,10 @@
           "date": "2026-10-15",
           "weekday_tr": "Perşembe",
           "time": "20:30",
-          "venue": "Cihangir Atölye Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/cihangir-atolye-sahnesi",
-          "first_seen": "2026-09-23T13:40:59+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-09-27T09:40:11+00:00"
         },
         {
           "date": "2026-10-16",
@@ -512,58 +503,49 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/meksika-acmazi",
       "sessions": [
         {
-          "date": "2026-09-26",
-          "weekday_tr": "Cumartesi",
-          "time": "20:30",
-          "venue": "1750",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278119",
-          "first_seen": "2026-09-25T09:12:55+00:00"
-        },
-        {
-          "date": "2026-09-29",
+          "date": "2027-09-29",
           "weekday_tr": "Salı",
           "time": "20:30",
           "venue": "1500",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/290220",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-09-27T09:40:11+00:00"
         },
         {
-          "date": "2026-10-07",
+          "date": "2027-10-07",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
           "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278177",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-09-27T09:40:11+00:00"
         },
         {
-          "date": "2026-10-17",
+          "date": "2027-10-17",
           "weekday_tr": "Cumartesi",
           "time": "20:30",
           "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278171",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-09-27T09:40:11+00:00"
         },
         {
-          "date": "2026-11-07",
+          "date": "2027-11-07",
           "weekday_tr": "Cumartesi",
           "time": "20:00",
           "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/290217",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-09-27T09:40:11+00:00"
         },
         {
-          "date": "2026-11-15",
+          "date": "2027-11-15",
           "weekday_tr": "Pazar",
           "time": "20:00",
           "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/289910",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-09-27T09:40:11+00:00"
         }
       ],
       "error": null
@@ -668,10 +650,10 @@
           "date": "2026-10-07",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
-          "venue": "750",
+          "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/276467",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-09-27T09:40:11+00:00"
         },
         {
           "date": "2026-12-06",
@@ -701,22 +683,13 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/balli-sut",
       "sessions": [
         {
-          "date": "2027-09-26",
-          "weekday_tr": "Cumartesi",
-          "time": "20:30",
-          "venue": "1206",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/balli-sut/seans/278892",
-          "first_seen": "2026-09-23T15:06:58+00:00"
-        },
-        {
-          "date": "2027-11-26",
+          "date": "2026-11-26",
           "weekday_tr": "Perşembe",
           "time": "20:30",
           "venue": "1206",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/balli-sut/seans/278880",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-09-27T09:40:11+00:00"
         }
       ],
       "error": null
