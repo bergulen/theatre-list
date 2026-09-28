@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T09:40:11+00:00",
+  "updated_at": "2026-09-28T10:19:21+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -101,10 +101,10 @@
           "date": "2026-11-16",
           "weekday_tr": "Pazartesi",
           "time": "20:30",
-          "venue": "Monologlar Müzesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
-          "first_seen": "2026-09-24T08:52:21+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-09-28T10:19:21+00:00"
         },
         {
           "date": "2026-11-19",
@@ -290,10 +290,10 @@
           "date": "2026-10-16",
           "weekday_tr": "Cuma",
           "time": "20:30",
-          "venue": "Cihangir Atölye Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/cihangir-atolye-sahnesi",
-          "first_seen": "2026-09-23T13:40:59+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-09-28T10:19:21+00:00"
         },
         {
           "date": "2026-10-17",
