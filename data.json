@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T10:19:21+00:00",
+  "updated_at": "2026-09-29T10:15:25+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -62,15 +62,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-pavyon",
       "sessions": [
         {
-          "date": "2026-09-28",
-          "weekday_tr": "Pazartesi",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-09-23T13:34:44+00:00"
-        },
-        {
           "date": "2026-09-29",
           "weekday_tr": "Salı",
           "time": "20:30",
@@ -114,6 +105,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
           "first_seen": "2026-09-24T08:52:21+00:00"
+        },
+        {
+          "date": "2026-11-25",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Monologlar Müzesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
+          "first_seen": "2026-09-29T10:15:25+00:00"
         }
       ],
       "error": null
@@ -656,6 +656,15 @@
           "first_seen": "2026-09-27T09:40:11+00:00"
         },
         {
+          "date": "2026-11-22",
+          "weekday_tr": "Pazar",
+          "time": "20:00",
+          "venue": "1150",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/293011",
+          "first_seen": "2026-09-29T10:15:25+00:00"
+        },
+        {
           "date": "2026-12-06",
           "weekday_tr": "Pazar",
           "time": "20:00",
@@ -682,6 +691,15 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/balli-sut-82189.jpeg",
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/balli-sut",
       "sessions": [
+        {
+          "date": "2026-11-12",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "1100",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/balli-sut/seans/293421",
+          "first_seen": "2026-09-29T10:15:25+00:00"
+        },
         {
           "date": "2026-11-26",
           "weekday_tr": "Perşembe",
