@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T10:15:25+00:00",
+  "updated_at": "2026-09-30T10:06:37+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -62,15 +62,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-pavyon",
       "sessions": [
         {
-          "date": "2026-09-29",
-          "weekday_tr": "Salı",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-09-23T13:34:44+00:00"
-        },
-        {
           "date": "2026-10-26",
           "weekday_tr": "Pazartesi",
           "time": "20:30",
@@ -101,10 +92,10 @@
           "date": "2026-11-19",
           "weekday_tr": "Perşembe",
           "time": "20:30",
-          "venue": "Monologlar Müzesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
-          "first_seen": "2026-09-24T08:52:21+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-09-30T10:06:37+00:00"
         },
         {
           "date": "2026-11-25",
@@ -114,6 +105,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
           "first_seen": "2026-09-29T10:15:25+00:00"
+        },
+        {
+          "date": "2026-11-30",
+          "weekday_tr": "Pazartesi",
+          "time": "20:30",
+          "venue": "Monologlar Müzesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
+          "first_seen": "2026-09-30T10:06:37+00:00"
         }
       ],
       "error": null
@@ -249,6 +249,15 @@
           "city": "Ankara",
           "venue_url": "https://tiyatrolar.com.tr/sahne/ankara/kult-teras",
           "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-10-03",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Muammer Karaca Tiyatrosu",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muammer-karaca-tiyatrosu",
+          "first_seen": "2026-09-30T10:06:37+00:00"
         },
         {
           "date": "2026-10-10",
@@ -429,6 +438,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/istos-sahne-aznavur",
           "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-10-25",
+          "weekday_tr": "Pazar",
+          "time": "20:30",
+          "venue": "Koma Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/koma-sahnesi",
+          "first_seen": "2026-09-30T10:06:37+00:00"
         }
       ],
       "error": null
@@ -503,49 +521,40 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/meksika-acmazi",
       "sessions": [
         {
-          "date": "2027-09-29",
-          "weekday_tr": "Salı",
-          "time": "20:30",
-          "venue": "1500",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/290220",
-          "first_seen": "2026-09-27T09:40:11+00:00"
-        },
-        {
-          "date": "2027-10-07",
+          "date": "2026-10-07",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
           "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278177",
-          "first_seen": "2026-09-27T09:40:11+00:00"
+          "first_seen": "2026-09-30T10:06:37+00:00"
         },
         {
-          "date": "2027-10-17",
+          "date": "2026-10-17",
           "weekday_tr": "Cumartesi",
           "time": "20:30",
           "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278171",
-          "first_seen": "2026-09-27T09:40:11+00:00"
+          "first_seen": "2026-09-30T10:06:37+00:00"
         },
         {
-          "date": "2027-11-07",
+          "date": "2026-11-07",
           "weekday_tr": "Cumartesi",
           "time": "20:00",
           "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/290217",
-          "first_seen": "2026-09-27T09:40:11+00:00"
+          "first_seen": "2026-09-30T10:06:37+00:00"
         },
         {
-          "date": "2027-11-15",
+          "date": "2026-11-15",
           "weekday_tr": "Pazar",
           "time": "20:00",
           "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/289910",
-          "first_seen": "2026-09-27T09:40:11+00:00"
+          "first_seen": "2026-09-30T10:06:37+00:00"
         }
       ],
       "error": null
@@ -566,13 +575,13 @@
           "first_seen": "2026-09-23T15:06:58+00:00"
         },
         {
-          "date": "2026-10-29",
-          "weekday_tr": "Perşembe",
+          "date": "2026-10-26",
+          "weekday_tr": "Pazartesi",
           "time": "20:30",
           "venue": "950",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/anlatanadam-standup/seans/283955",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-09-30T10:06:37+00:00"
         },
         {
           "date": "2026-10-30",
@@ -609,6 +618,15 @@
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/baba/seans/286478",
           "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-10-16",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "2750",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/baba/seans/293903",
+          "first_seen": "2026-09-30T10:06:37+00:00"
         },
         {
           "date": "2026-10-19",
@@ -654,6 +672,15 @@
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/276467",
           "first_seen": "2026-09-27T09:40:11+00:00"
+        },
+        {
+          "date": "2026-11-03",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "880",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/294314",
+          "first_seen": "2026-09-30T10:06:37+00:00"
         },
         {
           "date": "2026-11-22",
