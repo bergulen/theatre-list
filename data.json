@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T10:06:37+00:00",
+  "updated_at": "2026-10-01T10:34:54+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -241,15 +241,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/s/sevgi-soysal-yasamakta-israr-ediyor/image/sevgi-soysal-yasamakta-israr-ediyor.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/sevgi-soysal-yasamakta-israr-ediyor",
       "sessions": [
-        {
-          "date": "2026-09-30",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "Kült Teras",
-          "city": "Ankara",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/ankara/kult-teras",
-          "first_seen": "2026-09-23T13:40:59+00:00"
-        },
         {
           "date": "2026-10-03",
           "weekday_tr": "Cumartesi",
@@ -683,6 +674,15 @@
           "first_seen": "2026-09-30T10:06:37+00:00"
         },
         {
+          "date": "2026-11-14",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/294571",
+          "first_seen": "2026-10-01T10:34:54+00:00"
+        },
+        {
           "date": "2026-11-22",
           "weekday_tr": "Pazar",
           "time": "20:00",
@@ -704,10 +704,10 @@
           "date": "2026-12-13",
           "weekday_tr": "Pazar",
           "time": "20:30",
-          "venue": "750",
+          "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/291424",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-10-01T10:34:54+00:00"
         }
       ],
       "error": null
@@ -735,6 +735,15 @@
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/balli-sut/seans/278880",
           "first_seen": "2026-09-27T09:40:11+00:00"
+        },
+        {
+          "date": "2027-02-07",
+          "weekday_tr": "Pazar",
+          "time": "20:30",
+          "venue": "1100",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/balli-sut/seans/294690",
+          "first_seen": "2026-10-01T10:34:54+00:00"
         }
       ],
       "error": null
