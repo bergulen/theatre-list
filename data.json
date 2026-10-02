@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T10:34:54+00:00",
+  "updated_at": "2026-10-02T10:09:53+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -195,6 +195,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/eksi-on-alti-mekan",
           "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-11-26",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Koma Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/koma-sahnesi",
+          "first_seen": "2026-10-02T10:09:53+00:00"
         }
       ],
       "error": null
@@ -368,13 +377,13 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/yetim",
       "sessions": [
         {
-          "date": "2026-10-01",
-          "weekday_tr": "Perşembe",
+          "date": "2026-10-31",
+          "weekday_tr": "Cumartesi",
           "time": "20:30",
           "venue": "Eksi On Altı Mekan",
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/eksi-on-alti-mekan",
-          "first_seen": "2026-09-23T13:40:59+00:00"
+          "first_seen": "2026-10-02T10:09:53+00:00"
         }
       ],
       "error": null
