@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T10:09:53+00:00",
+  "updated_at": "2026-10-03T09:32:16+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -101,10 +101,10 @@
           "date": "2026-11-25",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
-          "venue": "Monologlar Müzesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
-          "first_seen": "2026-09-29T10:15:25+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-03T09:32:16+00:00"
         },
         {
           "date": "2026-11-30",
@@ -668,10 +668,10 @@
           "date": "2026-10-07",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
-          "venue": "1250",
+          "venue": "1750",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/276467",
-          "first_seen": "2026-09-27T09:40:11+00:00"
+          "first_seen": "2026-10-03T09:32:16+00:00"
         },
         {
           "date": "2026-11-03",
@@ -767,10 +767,10 @@
           "date": "2026-10-04",
           "weekday_tr": "Pazar",
           "time": "19:30",
-          "venue": "660",
+          "venue": "1430",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/283522",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-10-03T09:32:16+00:00"
         },
         {
           "date": "2026-10-21",
