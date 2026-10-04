@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T09:32:16+00:00",
+  "updated_at": "2026-10-04T10:18:38+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -152,15 +152,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/tut-elimden-rovni",
       "sessions": [
         {
-          "date": "2026-10-03",
-          "weekday_tr": "Cumartesi",
-          "time": "20:30",
-          "venue": "Kadıköy Barış Manço Kültür Merkezi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-baris-manco-kultur-merkezi",
-          "first_seen": "2026-09-23T13:40:59+00:00"
-        },
-        {
           "date": "2026-10-07",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
@@ -250,15 +241,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/s/sevgi-soysal-yasamakta-israr-ediyor/image/sevgi-soysal-yasamakta-israr-ediyor.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/sevgi-soysal-yasamakta-israr-ediyor",
       "sessions": [
-        {
-          "date": "2026-10-03",
-          "weekday_tr": "Cumartesi",
-          "time": "20:00",
-          "venue": "Muammer Karaca Tiyatrosu",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muammer-karaca-tiyatrosu",
-          "first_seen": "2026-09-30T10:06:37+00:00"
-        },
         {
           "date": "2026-10-10",
           "weekday_tr": "Cumartesi",
@@ -659,10 +641,10 @@
           "date": "2026-10-07",
           "weekday_tr": "Çarşamba",
           "time": "18:00",
-          "venue": "750",
+          "venue": "1500",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/286879",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-10-04T10:18:38+00:00"
         },
         {
           "date": "2026-10-07",
@@ -744,6 +726,15 @@
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/balli-sut/seans/278880",
           "first_seen": "2026-09-27T09:40:11+00:00"
+        },
+        {
+          "date": "2027-01-20",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "1100",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/balli-sut/seans/296260",
+          "first_seen": "2026-10-04T10:18:38+00:00"
         },
         {
           "date": "2027-02-07",
