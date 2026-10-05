@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T10:18:38+00:00",
+  "updated_at": "2026-10-05T10:59:37+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -59,7 +59,7 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-pavyon",
       "title": "Monologlar Müzesi Pavyon",
       "image": "https://tiyatrolar.com.tr/files/activity/m/monologlar-muzesi-pavyon/image/monologlar-muzesi-pavyon.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-pavyon",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-pavyon",
       "sessions": [
         {
           "date": "2026-10-26",
@@ -110,10 +110,10 @@
           "date": "2026-11-30",
           "weekday_tr": "Pazartesi",
           "time": "20:30",
-          "venue": "Monologlar Müzesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
-          "first_seen": "2026-09-30T10:06:37+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-05T10:59:37+00:00"
         }
       ],
       "error": null
@@ -695,10 +695,10 @@
           "date": "2026-12-13",
           "weekday_tr": "Pazar",
           "time": "20:30",
-          "venue": "1250",
+          "venue": "1600",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/291424",
-          "first_seen": "2026-10-01T10:34:54+00:00"
+          "first_seen": "2026-10-05T10:59:37+00:00"
         }
       ],
       "error": null
@@ -755,40 +755,31 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz",
       "sessions": [
         {
-          "date": "2026-10-04",
-          "weekday_tr": "Pazar",
-          "time": "19:30",
-          "venue": "1430",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/283522",
-          "first_seen": "2026-10-03T09:32:16+00:00"
-        },
-        {
-          "date": "2026-10-21",
+          "date": "2027-10-21",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
           "venue": "800",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/287620",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-10-05T10:59:37+00:00"
         },
         {
-          "date": "2026-11-27",
+          "date": "2027-11-27",
           "weekday_tr": "Cuma",
           "time": "20:30",
           "venue": "800",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/287592",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-10-05T10:59:37+00:00"
         },
         {
-          "date": "2026-12-15",
+          "date": "2027-12-15",
           "weekday_tr": "Salı",
           "time": "20:30",
           "venue": "750",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/289816",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-10-05T10:59:37+00:00"
         }
       ],
       "error": null
