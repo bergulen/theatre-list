@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T10:55:19+00:00",
+  "updated_at": "2026-10-07T10:42:54+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -141,6 +141,42 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
           "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-11-13",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Perispri Art Gallery",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/perispri",
+          "first_seen": "2026-10-07T10:42:54+00:00"
+        },
+        {
+          "date": "2026-11-14",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "Perispri Art Gallery",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/perispri",
+          "first_seen": "2026-10-07T10:42:54+00:00"
+        },
+        {
+          "date": "2026-11-27",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Perispri Art Gallery",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/perispri",
+          "first_seen": "2026-10-07T10:42:54+00:00"
+        },
+        {
+          "date": "2026-11-28",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-07T10:42:54+00:00"
         }
       ],
       "error": null
