@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T10:42:54+00:00",
+  "updated_at": "2026-10-08T11:02:45+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -188,15 +188,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/tut-elimden-rovni",
       "sessions": [
         {
-          "date": "2026-10-07",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "Caddebostan Kültür Merkezi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-kultur-merkezi",
-          "first_seen": "2026-09-23T13:40:59+00:00"
-        },
-        {
           "date": "2026-10-14",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
@@ -339,6 +330,24 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
           "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-11-14",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "Cihangir Atölye Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/cihangir-atolye-sahnesi",
+          "first_seen": "2026-10-08T11:02:45+00:00"
+        },
+        {
+          "date": "2026-11-20",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Caddebostan Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-kultur-merkezi",
+          "first_seen": "2026-10-08T11:02:45+00:00"
         }
       ],
       "error": null
@@ -539,15 +548,6 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/meksika-acmazi",
       "sessions": [
         {
-          "date": "2026-10-07",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "1250",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/278177",
-          "first_seen": "2026-09-30T10:06:37+00:00"
-        },
-        {
           "date": "2026-10-17",
           "weekday_tr": "Cumartesi",
           "time": "20:30",
@@ -674,67 +674,49 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/sesler-salih-bademci",
       "sessions": [
         {
-          "date": "2026-10-07",
-          "weekday_tr": "Çarşamba",
-          "time": "18:00",
-          "venue": "1500",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/286879",
-          "first_seen": "2026-10-04T10:18:38+00:00"
-        },
-        {
-          "date": "2026-10-07",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "1750",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/276467",
-          "first_seen": "2026-10-03T09:32:16+00:00"
-        },
-        {
-          "date": "2026-11-03",
+          "date": "2027-11-03",
           "weekday_tr": "Salı",
           "time": "20:30",
           "venue": "880",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/294314",
-          "first_seen": "2026-09-30T10:06:37+00:00"
+          "first_seen": "2026-10-08T11:02:45+00:00"
         },
         {
-          "date": "2026-11-14",
+          "date": "2027-11-14",
           "weekday_tr": "Cumartesi",
           "time": "20:30",
           "venue": "1250",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/294571",
-          "first_seen": "2026-10-01T10:34:54+00:00"
+          "first_seen": "2026-10-08T11:02:45+00:00"
         },
         {
-          "date": "2026-11-22",
+          "date": "2027-11-22",
           "weekday_tr": "Pazar",
           "time": "20:00",
           "venue": "1150",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/293011",
-          "first_seen": "2026-09-29T10:15:25+00:00"
+          "first_seen": "2026-10-08T11:02:45+00:00"
         },
         {
-          "date": "2026-12-06",
+          "date": "2027-12-06",
           "weekday_tr": "Pazar",
           "time": "20:00",
           "venue": "1150",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/290618",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-10-08T11:02:45+00:00"
         },
         {
-          "date": "2026-12-13",
+          "date": "2027-12-13",
           "weekday_tr": "Pazar",
           "time": "20:30",
           "venue": "1600",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/291424",
-          "first_seen": "2026-10-05T10:59:37+00:00"
+          "first_seen": "2026-10-08T11:02:45+00:00"
         }
       ],
       "error": null
