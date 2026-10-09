@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T11:02:45+00:00",
+  "updated_at": "2026-10-09T11:01:54+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -128,10 +128,10 @@
           "date": "2026-10-09",
           "weekday_tr": "Cuma",
           "time": "20:30",
-          "venue": "Perispri Art Gallery",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/perispri",
-          "first_seen": "2026-09-23T13:40:59+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-09T11:01:54+00:00"
         },
         {
           "date": "2026-10-16",
@@ -419,36 +419,16 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/yas-dedigin",
       "title": "Yaş Dediğin",
       "image": "https://tiyatrolar.com.tr/files/activity/y/yas-dedigin/image/yas-dedigin.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/yas-dedigin",
-      "sessions": [
-        {
-          "date": "2026-10-08",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "Asmalı Sahne",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/asmali-sahne",
-          "first_seen": "2026-09-23T13:40:59+00:00"
-        }
-      ],
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/yas-dedigin",
+      "sessions": [],
       "error": null
     },
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/leke",
       "title": "Leke",
       "image": "https://tiyatrolar.com.tr/files/activity/l/leke/image/leke.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/leke",
-      "sessions": [
-        {
-          "date": "2026-10-08",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "Kadıköy Barış Manço Kültür Merkezi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-baris-manco-kultur-merkezi",
-          "first_seen": "2026-09-23T13:40:59+00:00"
-        }
-      ],
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/leke",
+      "sessions": [],
       "error": null
     },
     {
@@ -663,6 +643,15 @@
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/baba/seans/286477",
           "first_seen": "2026-09-23T15:06:58+00:00"
+        },
+        {
+          "date": "2026-11-18",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "2750",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/baba/seans/298347",
+          "first_seen": "2026-10-09T11:01:54+00:00"
         }
       ],
       "error": null
@@ -677,10 +666,10 @@
           "date": "2027-11-03",
           "weekday_tr": "Salı",
           "time": "20:30",
-          "venue": "880",
+          "venue": "1650",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/294314",
-          "first_seen": "2026-10-08T11:02:45+00:00"
+          "first_seen": "2026-10-09T11:01:54+00:00"
         },
         {
           "date": "2027-11-14",
@@ -708,6 +697,15 @@
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/290618",
           "first_seen": "2026-10-08T11:02:45+00:00"
+        },
+        {
+          "date": "2027-12-11",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/298339",
+          "first_seen": "2026-10-09T11:01:54+00:00"
         },
         {
           "date": "2027-12-13",
