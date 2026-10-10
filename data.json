@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T11:01:54+00:00",
+  "updated_at": "2026-10-10T10:16:25+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -124,15 +124,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/t/tebdil/image/tebdil.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/tebdil",
       "sessions": [
-        {
-          "date": "2026-10-09",
-          "weekday_tr": "Cuma",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-10-09T11:01:54+00:00"
-        },
         {
           "date": "2026-10-16",
           "weekday_tr": "Cuma",
@@ -639,10 +630,10 @@
           "date": "2026-10-20",
           "weekday_tr": "Salı",
           "time": "20:30",
-          "venue": "2750",
+          "venue": "Caddebostan Kültür Merkezi Büyük Salon",
           "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/baba/seans/286477",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "venue_url": "",
+          "first_seen": "2026-10-10T10:16:25+00:00"
         },
         {
           "date": "2026-11-18",
