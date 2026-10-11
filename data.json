@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T10:16:25+00:00",
+  "updated_at": "2026-10-11T10:26:53+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -259,15 +259,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/s/sevgi-soysal-yasamakta-israr-ediyor/image/sevgi-soysal-yasamakta-israr-ediyor.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/sevgi-soysal-yasamakta-israr-ediyor",
       "sessions": [
-        {
-          "date": "2026-10-10",
-          "weekday_tr": "Cumartesi",
-          "time": "20:30",
-          "venue": "Sahne Pulchérie",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/sahne-pulchrie",
-          "first_seen": "2026-09-23T13:40:59+00:00"
-        },
         {
           "date": "2026-12-10",
           "weekday_tr": "Perşembe",
