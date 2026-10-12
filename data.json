@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T10:26:53+00:00",
+  "updated_at": "2026-10-12T11:28:24+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -224,15 +224,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/98lik-kiyamet",
       "sessions": [
         {
-          "date": "2026-10-11",
-          "weekday_tr": "Pazar",
-          "time": "20:00",
-          "venue": "Moda Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/moda-sahnesi",
-          "first_seen": "2026-09-25T09:12:55+00:00"
-        },
-        {
           "date": "2026-10-28",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
@@ -375,6 +366,24 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/rebel-kadikoy",
           "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-12-06",
+          "weekday_tr": "Pazar",
+          "time": "20:30",
+          "venue": "Ziba",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/ziba",
+          "first_seen": "2026-10-12T11:28:24+00:00"
+        },
+        {
+          "date": "2027-01-10",
+          "weekday_tr": "Pazar",
+          "time": "20:30",
+          "venue": "kargART",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kargart",
+          "first_seen": "2026-10-12T11:28:24+00:00"
         }
       ],
       "error": null
@@ -419,15 +428,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/k/kirildigimiz-yerde-bi-bosluk/image/kirildigimiz-yerde-bi-bosluk.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/kirildigimiz-yerde-bi-bosluk",
       "sessions": [
-        {
-          "date": "2026-10-11",
-          "weekday_tr": "Pazar",
-          "time": "17:00",
-          "venue": "istos sahne aznavur",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/istos-sahne-aznavur",
-          "first_seen": "2026-09-23T13:40:59+00:00"
-        },
         {
           "date": "2026-10-25",
           "weekday_tr": "Pazar",
@@ -612,10 +612,10 @@
           "date": "2026-10-19",
           "weekday_tr": "Pazartesi",
           "time": "20:30",
-          "venue": "2750",
+          "venue": "Caddebostan Kültür Merkezi Büyük Salon",
           "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/baba/seans/286473",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "venue_url": "",
+          "first_seen": "2026-10-12T11:28:24+00:00"
         },
         {
           "date": "2026-10-20",
