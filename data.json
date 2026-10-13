@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T11:28:24+00:00",
+  "updated_at": "2026-10-13T11:17:26+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -176,16 +176,16 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/tut-elimden-rovni",
       "title": "Tut Elimden Rovni",
       "image": "https://tiyatrolar.com.tr/files/activity/t/tut-elimden-rovni/image/tut-elimden-rovni.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/tut-elimden-rovni",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/tut-elimden-rovni",
       "sessions": [
         {
           "date": "2026-10-14",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
-          "venue": "Tiyatro Keyfi Lab - Savaş Başar Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-keyfi-lab-savas-basar-sahnesi",
-          "first_seen": "2026-09-23T13:40:59+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-13T11:17:26+00:00"
         }
       ],
       "error": null
@@ -204,6 +204,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/eksi-on-alti-mekan",
           "first_seen": "2026-09-23T13:40:59+00:00"
+        },
+        {
+          "date": "2026-11-12",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Caddebostan Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-kultur-merkezi",
+          "first_seen": "2026-10-13T11:17:26+00:00"
         },
         {
           "date": "2026-11-26",
