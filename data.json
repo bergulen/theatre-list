@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T09:09:22+00:00",
+  "updated_at": "2026-10-15T08:42:20+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -177,17 +177,7 @@
       "title": "Tut Elimden Rovni",
       "image": "https://tiyatrolar.com.tr/files/activity/t/tut-elimden-rovni/image/tut-elimden-rovni.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/tut-elimden-rovni",
-      "sessions": [
-        {
-          "date": "2026-10-14",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-10-13T11:17:26+00:00"
-        }
-      ],
+      "sessions": [],
       "error": null
     },
     {
@@ -535,6 +525,24 @@
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/289910",
           "first_seen": "2026-09-30T10:06:37+00:00"
+        },
+        {
+          "date": "2026-12-05",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/300609",
+          "first_seen": "2026-10-15T08:42:20+00:00"
+        },
+        {
+          "date": "2026-12-26",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/meksika-acmazi/seans/300620",
+          "first_seen": "2026-10-15T08:42:20+00:00"
         }
       ],
       "error": null
@@ -789,13 +797,13 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/devlerin-savasi-",
       "sessions": [
         {
-          "date": "2026-10-31",
-          "weekday_tr": "Cumartesi",
+          "date": "2027-01-10",
+          "weekday_tr": "Pazar",
           "time": "20:00",
           "venue": "1650",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/devlerin-savasi-/seans/285668",
-          "first_seen": "2026-09-23T15:06:58+00:00"
+          "first_seen": "2026-10-15T08:42:20+00:00"
         }
       ],
       "error": null
