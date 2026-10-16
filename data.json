@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T08:42:20+00:00",
+  "updated_at": "2026-10-16T08:37:03+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -258,15 +258,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/f/filler-ve-karincalar/image/filler-ve-karincalar.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/filler-ve-karincalar",
       "sessions": [
-        {
-          "date": "2026-10-15",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-09-27T09:40:11+00:00"
-        },
         {
           "date": "2026-10-16",
           "weekday_tr": "Cuma",
@@ -554,15 +545,6 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/anlatanadam-standup",
       "sessions": [
         {
-          "date": "2026-10-15",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "950",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/anlatanadam-standup/seans/278108",
-          "first_seen": "2026-09-23T15:06:58+00:00"
-        },
-        {
           "date": "2026-10-26",
           "weekday_tr": "Pazartesi",
           "time": "20:30",
@@ -598,15 +580,6 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/baba-20260728172057586-3c4bd39a7bff.png",
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/baba",
       "sessions": [
-        {
-          "date": "2026-10-15",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "2750",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/baba/seans/286478",
-          "first_seen": "2026-09-23T15:06:58+00:00"
-        },
         {
           "date": "2026-10-16",
           "weekday_tr": "Cuma",
@@ -761,31 +734,22 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz",
       "sessions": [
         {
-          "date": "2027-10-21",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "800",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/287620",
-          "first_seen": "2026-10-05T10:59:37+00:00"
-        },
-        {
-          "date": "2027-11-27",
+          "date": "2026-11-27",
           "weekday_tr": "Cuma",
           "time": "20:30",
           "venue": "800",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/287592",
-          "first_seen": "2026-10-05T10:59:37+00:00"
+          "first_seen": "2026-10-16T08:37:03+00:00"
         },
         {
-          "date": "2027-12-15",
+          "date": "2026-12-15",
           "weekday_tr": "Salı",
           "time": "20:30",
           "venue": "750",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/289816",
-          "first_seen": "2026-10-05T10:59:37+00:00"
+          "first_seen": "2026-10-16T08:37:03+00:00"
         }
       ],
       "error": null
