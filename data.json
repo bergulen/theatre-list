@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:37:03+00:00",
+  "updated_at": "2026-10-17T08:08:55+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -124,15 +124,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/t/tebdil/image/tebdil.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/tebdil",
       "sessions": [
-        {
-          "date": "2026-10-16",
-          "weekday_tr": "Cuma",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-10-14T09:09:22+00:00"
-        },
         {
           "date": "2026-11-13",
           "weekday_tr": "Cuma",
@@ -259,15 +250,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/filler-ve-karincalar",
       "sessions": [
         {
-          "date": "2026-10-16",
-          "weekday_tr": "Cuma",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-09-28T10:19:21+00:00"
-        },
-        {
           "date": "2026-10-17",
           "weekday_tr": "Cumartesi",
           "time": "20:30",
@@ -280,10 +262,10 @@
           "date": "2026-10-21",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
-          "venue": "Alan Kadıköy",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
-          "first_seen": "2026-09-23T13:40:59+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-17T08:08:55+00:00"
         },
         {
           "date": "2026-11-14",
@@ -580,15 +562,6 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/baba-20260728172057586-3c4bd39a7bff.png",
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/baba",
       "sessions": [
-        {
-          "date": "2026-10-16",
-          "weekday_tr": "Cuma",
-          "time": "20:30",
-          "venue": "2750",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/baba/seans/293903",
-          "first_seen": "2026-09-30T10:06:37+00:00"
-        },
         {
           "date": "2026-10-19",
           "weekday_tr": "Pazartesi",
