@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T08:25:44+00:00",
+  "updated_at": "2026-10-19T09:26:31+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -231,6 +231,15 @@
       "image": "https://tiyatrolar.com.tr/files/activity/s/sevgi-soysal-yasamakta-israr-ediyor/image/sevgi-soysal-yasamakta-israr-ediyor.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/sevgi-soysal-yasamakta-israr-ediyor",
       "sessions": [
+        {
+          "date": "2026-11-22",
+          "weekday_tr": "Pazar",
+          "time": "19:00",
+          "venue": "Kozyatağı Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kozyatagi-kultur-merkezi",
+          "first_seen": "2026-10-19T09:26:31+00:00"
+        },
         {
           "date": "2026-12-10",
           "weekday_tr": "Perşembe",
