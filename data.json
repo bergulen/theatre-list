@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T09:26:31+00:00",
+  "updated_at": "2026-10-20T09:00:55+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -399,6 +399,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/koma-sahnesi",
           "first_seen": "2026-09-30T10:06:37+00:00"
+        },
+        {
+          "date": "2026-11-28",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "istos sahne aznavur",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/istos-sahne-aznavur",
+          "first_seen": "2026-10-20T09:00:55+00:00"
         }
       ],
       "error": null
@@ -553,15 +562,6 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/baba-20260728172057586-3c4bd39a7bff.png",
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/baba",
       "sessions": [
-        {
-          "date": "2026-10-19",
-          "weekday_tr": "Pazartesi",
-          "time": "20:30",
-          "venue": "Caddebostan Kültür Merkezi Büyük Salon",
-          "city": "İstanbul",
-          "venue_url": "",
-          "first_seen": "2026-10-12T11:28:24+00:00"
-        },
         {
           "date": "2026-10-20",
           "weekday_tr": "Salı",
