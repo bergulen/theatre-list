@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T10:29:45+00:00",
+  "updated_at": "2026-10-22T11:12:05+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -894,6 +894,375 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/ataturk-kultur-merkezi",
           "first_seen": "2026-10-22T10:29:45+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/cingene-boksor-1",
+      "title": "Çingene Boksör",
+      "image": "https://tiyatrolar.com.tr/files/activity/c/cingene-boksor-1/image/cingene-boksor-1.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/cingene-boksor-1",
+      "sessions": [
+        {
+          "date": "2026-10-22",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-10-23",
+          "weekday_tr": "Cuma",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-10-24",
+          "weekday_tr": "Cumartesi",
+          "time": "15:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-10-24",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-11",
+          "weekday_tr": "Çarşamba",
+          "time": "15:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-11",
+          "weekday_tr": "Çarşamba",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-12",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-13",
+          "weekday_tr": "Cuma",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-14",
+          "weekday_tr": "Cumartesi",
+          "time": "15:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-14",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/oylece-durur-zaman",
+      "title": "Öylece Durur Zaman",
+      "image": "https://tiyatrolar.com.tr/files/activity/o/oylece-durur-zaman/image/oylece-durur-zaman.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/oylece-durur-zaman",
+      "sessions": [
+        {
+          "date": "2026-10-22",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Üsküdar Musahipzade Celal Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-musahipzade-cell-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-10-23",
+          "weekday_tr": "Cuma",
+          "time": "20:00",
+          "venue": "Üsküdar Musahipzade Celal Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-musahipzade-cell-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-10-24",
+          "weekday_tr": "Cumartesi",
+          "time": "15:00",
+          "venue": "Üsküdar Musahipzade Celal Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-musahipzade-cell-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-10-24",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Üsküdar Musahipzade Celal Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-musahipzade-cell-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-18",
+          "weekday_tr": "Çarşamba",
+          "time": "20:00",
+          "venue": "Üsküdar Kerem Yılmazer Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-kerem-yilmazer-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-19",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Üsküdar Kerem Yılmazer Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-kerem-yilmazer-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-20",
+          "weekday_tr": "Cuma",
+          "time": "20:00",
+          "venue": "Üsküdar Kerem Yılmazer Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-kerem-yilmazer-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-21",
+          "weekday_tr": "Cumartesi",
+          "time": "15:00",
+          "venue": "Üsküdar Kerem Yılmazer Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-kerem-yilmazer-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-21",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Üsküdar Kerem Yılmazer Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-kerem-yilmazer-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/yoldan-cikan-oyun-3",
+      "title": "Yoldan Çıkan Oyun",
+      "image": "https://tiyatrolar.com.tr/files/activity/y/yoldan-cikan-oyun-3/image/yoldan-cikan-oyun-3.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/yoldan-cikan-oyun-3",
+      "sessions": [
+        {
+          "date": "2026-10-22",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Harbiye Muhsin Ertuğrul Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/harbiye-muhsin-ertugrul-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-10-23",
+          "weekday_tr": "Cuma",
+          "time": "20:00",
+          "venue": "Harbiye Muhsin Ertuğrul Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/harbiye-muhsin-ertugrul-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-10-24",
+          "weekday_tr": "Cumartesi",
+          "time": "15:00",
+          "venue": "Harbiye Muhsin Ertuğrul Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/harbiye-muhsin-ertugrul-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-10-24",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Harbiye Muhsin Ertuğrul Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/harbiye-muhsin-ertugrul-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-11",
+          "weekday_tr": "Çarşamba",
+          "time": "20:00",
+          "venue": "Ümraniye Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/umraniye-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-12",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Ümraniye Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/umraniye-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-13",
+          "weekday_tr": "Cuma",
+          "time": "20:00",
+          "venue": "Ümraniye Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/umraniye-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-14",
+          "weekday_tr": "Cumartesi",
+          "time": "15:00",
+          "venue": "Ümraniye Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/umraniye-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-14",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Ümraniye Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/umraniye-sahnesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/harika-seyler-listesi",
+      "title": "Harika Şeyler Listesi",
+      "image": "https://tiyatrolar.com.tr/files/activity/h/harika-seyler-listesi/image/harika-seyler-listesi.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/harika-seyler-listesi",
+      "sessions": [
+        {
+          "date": "2026-11-01",
+          "weekday_tr": "Pazar",
+          "time": "19:00",
+          "venue": "Alan Kadıköy",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-01",
+          "weekday_tr": "Pazar",
+          "time": "21:00",
+          "venue": "Alan Kadıköy",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-03",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "Zorlu PSM",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/zorlu-center-psm",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/kel-diva",
+      "title": "Kel Diva",
+      "image": "https://tiyatrolar.com.tr/files/activity/k/kel-diva/image/kel-diva.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/kel-diva",
+      "sessions": [
+        {
+          "date": "2026-10-22",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Oyun Atölyesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/oyun-atolyesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-10",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "Oyun Atölyesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/oyun-atolyesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-11",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Oyun Atölyesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/oyun-atolyesi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-11-17",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "Caddebostan Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-kultur-merkezi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
+        },
+        {
+          "date": "2026-12-08",
+          "weekday_tr": "Salı",
+          "time": "20:00",
+          "venue": "Şahinbey Kongre ve Sanat Merkezi",
+          "city": "Gaziantep",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/gaziantep/sahinbey-kongre-ve-sanat-merkezi",
+          "first_seen": "2026-10-22T11:12:05+00:00"
         }
       ],
       "error": null
