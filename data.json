@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T09:51:13+00:00",
+  "updated_at": "2026-10-22T10:29:45+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -602,33 +602,6 @@
       "error": null
     },
     {
-      "url": "https://www.bubilet.com.tr/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz",
-      "title": "Alper Kul - Çok Tatlı Bi Hikaye",
-      "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz-73978.jpg",
-      "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz",
-      "sessions": [
-        {
-          "date": "2026-11-27",
-          "weekday_tr": "Cuma",
-          "time": "20:30",
-          "venue": "800",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/287592",
-          "first_seen": "2026-10-16T08:37:03+00:00"
-        },
-        {
-          "date": "2026-12-15",
-          "weekday_tr": "Salı",
-          "time": "20:30",
-          "venue": "750",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz/seans/289816",
-          "first_seen": "2026-10-16T08:37:03+00:00"
-        }
-      ],
-      "error": null
-    },
-    {
       "url": "https://www.bubilet.com.tr/istanbul/etkinlik/devlerin-savasi-",
       "title": "Devlerin Savaşı",
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/devlerin-savasi-20260714140040093-156bfa6135d0.jpg",
@@ -642,6 +615,285 @@
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/devlerin-savasi-/seans/285668",
           "first_seen": "2026-10-15T08:42:20+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/bir-ceyiz-sozlesmesi",
+      "title": "Bir Çeyiz Sözleşmesi",
+      "image": "https://tiyatrolar.com.tr/files/activity/b/bir-ceyiz-sozlesmesi/image/bir-ceyiz-sozlesmesi.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-ceyiz-sozlesmesi",
+      "sessions": [
+        {
+          "date": "2026-10-30",
+          "weekday_tr": "Cuma",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-30",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-31",
+          "weekday_tr": "Cumartesi",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-31",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-11-01",
+          "weekday_tr": "Pazar",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-11-01",
+          "weekday_tr": "Pazar",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-11-12",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-11-13",
+          "weekday_tr": "Cuma",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-11-13",
+          "weekday_tr": "Cuma",
+          "time": "21:00",
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-12-01",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-12-02",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-12-03",
+          "weekday_tr": "Perşembe",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-12-03",
+          "weekday_tr": "Perşembe",
+          "time": "21:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-12-04",
+          "weekday_tr": "Cuma",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-12-04",
+          "weekday_tr": "Cuma",
+          "time": "21:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/babamin-kelimeleriyle",
+      "title": "Babamın Kelimeleriyle",
+      "image": "https://tiyatrolar.com.tr/files/activity/b/babamin-kelimeleriyle/image/babamin-kelimeleriyle.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/babamin-kelimeleriyle",
+      "sessions": [
+        {
+          "date": "2026-10-22",
+          "weekday_tr": "Perşembe",
+          "time": "18:00",
+          "venue": "Mecidiyeköy Stüdyo Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-studyo-sahne",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-23",
+          "weekday_tr": "Cuma",
+          "time": "18:00",
+          "venue": "Mecidiyeköy Stüdyo Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-studyo-sahne",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-24",
+          "weekday_tr": "Cumartesi",
+          "time": "18:00",
+          "venue": "Mecidiyeköy Stüdyo Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-studyo-sahne",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/bence-katil-oldurdu",
+      "title": "Bence Katil Öldürdü",
+      "image": "https://tiyatrolar.com.tr/files/activity/b/bence-katil-oldurdu/image/bence-katil-oldurdu.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/bence-katil-oldurdu",
+      "sessions": [
+        {
+          "date": "2026-10-27",
+          "weekday_tr": "Salı",
+          "time": "20:00",
+          "venue": "Mecidiyeköy Büyük Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-28",
+          "weekday_tr": "Çarşamba",
+          "time": "20:00",
+          "venue": "Mecidiyeköy Büyük Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-29",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Mecidiyeköy Büyük Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-30",
+          "weekday_tr": "Cuma",
+          "time": "20:00",
+          "venue": "Mecidiyeköy Büyük Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-31",
+          "weekday_tr": "Cumartesi",
+          "time": "15:00",
+          "venue": "Mecidiyeköy Büyük Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-31",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Mecidiyeköy Büyük Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://tiyatrolar.com.tr/tiyatro/aslinda-kasik-yok",
+      "title": "Aslında Kaşık Yok",
+      "image": "https://tiyatrolar.com.tr/files/activity/a/aslinda-kasik-yok/image/aslinda-kasik-yok.jpg",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/aslinda-kasik-yok",
+      "sessions": [
+        {
+          "date": "2026-10-30",
+          "weekday_tr": "Cuma",
+          "time": "20:00",
+          "venue": "Atatürk Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/ataturk-kultur-merkezi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-31",
+          "weekday_tr": "Cumartesi",
+          "time": "15:00",
+          "venue": "Atatürk Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/ataturk-kultur-merkezi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
+        },
+        {
+          "date": "2026-10-31",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Atatürk Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/ataturk-kultur-merkezi",
+          "first_seen": "2026-10-22T10:29:45+00:00"
         }
       ],
       "error": null
