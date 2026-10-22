@@ -1,33 +1,6 @@
 {
-  "updated_at": "2026-10-22T09:02:10+00:00",
+  "updated_at": "2026-10-22T09:51:13+00:00",
   "plays": [
-    {
-      "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
-      "title": "Ehlikeyf",
-      "image": "https://tiyatrolar.com.tr/files/activity/e/ehlikeyf/image/ehlikeyf.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/ehlikeyf",
-      "sessions": [
-        {
-          "date": "2026-10-26",
-          "weekday_tr": "Pazartesi",
-          "time": "20:30",
-          "venue": "istos sahne aznavur",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/istos-sahne-aznavur",
-          "first_seen": "2026-09-23T08:00:00+00:00"
-        },
-        {
-          "date": "2026-12-09",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "Komünite",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/komunite",
-          "first_seen": "2026-09-23T08:00:00+00:00"
-        }
-      ],
-      "error": null
-    },
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
       "title": "Ödenmeyecek! Ödemiyoruz!",
@@ -253,33 +226,6 @@
       "error": null
     },
     {
-      "url": "https://tiyatrolar.com.tr/tiyatro/filler-ve-karincalar",
-      "title": "Filler ve Karıncalar",
-      "image": "https://tiyatrolar.com.tr/files/activity/f/filler-ve-karincalar/image/filler-ve-karincalar.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/filler-ve-karincalar",
-      "sessions": [
-        {
-          "date": "2026-11-14",
-          "weekday_tr": "Cumartesi",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-10-18T08:25:44+00:00"
-        },
-        {
-          "date": "2026-11-20",
-          "weekday_tr": "Cuma",
-          "time": "20:30",
-          "venue": "Caddebostan Kültür Merkezi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-kultur-merkezi",
-          "first_seen": "2026-10-08T11:02:45+00:00"
-        }
-      ],
-      "error": null
-    },
-    {
       "url": "https://tiyatrolar.com.tr/tiyatro/mori",
       "title": "Mori",
       "image": "https://tiyatrolar.com.tr/files/activity/m/mori/image/mori.jpg",
@@ -338,24 +284,6 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kargart",
           "first_seen": "2026-10-12T11:28:24+00:00"
-        }
-      ],
-      "error": null
-    },
-    {
-      "url": "https://tiyatrolar.com.tr/tiyatro/yetim",
-      "title": "Yetim",
-      "image": "https://tiyatrolar.com.tr/files/activity/y/yetim/image/yetim.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/yetim",
-      "sessions": [
-        {
-          "date": "2026-10-31",
-          "weekday_tr": "Cumartesi",
-          "time": "20:30",
-          "venue": "Eksi On Altı Mekan",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/eksi-on-alti-mekan",
-          "first_seen": "2026-10-02T10:09:53+00:00"
         }
       ],
       "error": null
