@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T08:59:36+00:00",
+  "updated_at": "2026-10-22T09:02:10+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/ehlikeyf",
@@ -258,15 +258,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/f/filler-ve-karincalar/image/filler-ve-karincalar.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/filler-ve-karincalar",
       "sessions": [
-        {
-          "date": "2026-10-21",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-10-17T08:08:55+00:00"
-        },
         {
           "date": "2026-11-14",
           "weekday_tr": "Cumartesi",
