@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T11:12:05+00:00",
+  "updated_at": "2026-10-23T08:56:59+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -259,15 +259,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/iki-kent-arasinda-bir-bar-masasinda",
       "sessions": [
         {
-          "date": "2026-10-22",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "Rebel Kadıköy",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/rebel-kadikoy",
-          "first_seen": "2026-09-23T13:40:59+00:00"
-        },
-        {
           "date": "2026-12-06",
           "weekday_tr": "Pazar",
           "time": "20:30",
@@ -337,15 +328,6 @@
       "image": "https://cdn.bubilet.com.tr/cdn-cgi/image/width=1200,quality=100/files/Etkinlik/ilker-gumusoluk-tek-kisilik-gosteri-78513.PNG",
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri",
       "sessions": [
-        {
-          "date": "2026-10-22",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "1096",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/ilker-gumusoluk-tek-kisilik-gosteri/seans/276960",
-          "first_seen": "2026-09-23T15:06:58+00:00"
-        },
         {
           "date": "2026-11-04",
           "weekday_tr": "Çarşamba",
@@ -770,15 +752,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/babamin-kelimeleriyle",
       "sessions": [
         {
-          "date": "2026-10-22",
-          "weekday_tr": "Perşembe",
-          "time": "18:00",
-          "venue": "Mecidiyeköy Stüdyo Sahne",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-studyo-sahne",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        },
-        {
           "date": "2026-10-23",
           "weekday_tr": "Cuma",
           "time": "18:00",
@@ -905,15 +878,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/cingene-boksor-1",
       "sessions": [
         {
-          "date": "2026-10-22",
-          "weekday_tr": "Perşembe",
-          "time": "20:00",
-          "venue": "Müze Gazhane",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
-        {
           "date": "2026-10-23",
           "weekday_tr": "Cuma",
           "time": "20:00",
@@ -1004,15 +968,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/oylece-durur-zaman",
       "sessions": [
         {
-          "date": "2026-10-22",
-          "weekday_tr": "Perşembe",
-          "time": "20:00",
-          "venue": "Üsküdar Musahipzade Celal Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-musahipzade-cell-sahnesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
-        {
           "date": "2026-10-23",
           "weekday_tr": "Cuma",
           "time": "20:00",
@@ -1093,15 +1048,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/y/yoldan-cikan-oyun-3/image/yoldan-cikan-oyun-3.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/yoldan-cikan-oyun-3",
       "sessions": [
-        {
-          "date": "2026-10-22",
-          "weekday_tr": "Perşembe",
-          "time": "20:00",
-          "venue": "Harbiye Muhsin Ertuğrul Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/harbiye-muhsin-ertugrul-sahnesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
         {
           "date": "2026-10-23",
           "weekday_tr": "Cuma",
@@ -1219,15 +1165,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/k/kel-diva/image/kel-diva.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/kel-diva",
       "sessions": [
-        {
-          "date": "2026-10-22",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "Oyun Atölyesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/oyun-atolyesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
         {
           "date": "2026-11-10",
           "weekday_tr": "Salı",
