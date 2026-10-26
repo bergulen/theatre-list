@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T08:49:47+00:00",
+  "updated_at": "2026-10-26T09:30:38+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -302,15 +302,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/kirildigimiz-yerde-bi-bosluk",
       "sessions": [
         {
-          "date": "2026-10-25",
-          "weekday_tr": "Pazar",
-          "time": "20:30",
-          "venue": "Koma Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/koma-sahnesi",
-          "first_seen": "2026-09-30T10:06:37+00:00"
-        },
-        {
           "date": "2026-11-28",
           "weekday_tr": "Cumartesi",
           "time": "20:30",
@@ -428,15 +419,6 @@
       "ticket_url": "https://www.bubilet.com.tr/istanbul/etkinlik/anlatanadam-standup",
       "sessions": [
         {
-          "date": "2026-10-26",
-          "weekday_tr": "Pazartesi",
-          "time": "20:30",
-          "venue": "950",
-          "city": "İstanbul",
-          "venue_url": "/istanbul/etkinlik/anlatanadam-standup/seans/283955",
-          "first_seen": "2026-09-30T10:06:37+00:00"
-        },
-        {
           "date": "2026-10-30",
           "weekday_tr": "Cuma",
           "time": "20:30",
@@ -453,6 +435,15 @@
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/anlatanadam-standup/seans/291370",
           "first_seen": "2026-09-24T08:52:21+00:00"
+        },
+        {
+          "date": "2026-12-23",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "950",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/anlatanadam-standup/seans/283955",
+          "first_seen": "2026-10-26T09:30:38+00:00"
         }
       ],
       "error": null
