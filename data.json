@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T09:30:38+00:00",
+  "updated_at": "2026-10-27T09:27:31+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -32,17 +32,8 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-pavyon",
       "title": "Monologlar Müzesi Pavyon",
       "image": "https://tiyatrolar.com.tr/files/activity/m/monologlar-muzesi-pavyon/image/monologlar-muzesi-pavyon.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-pavyon",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-pavyon",
       "sessions": [
-        {
-          "date": "2026-10-26",
-          "weekday_tr": "Pazartesi",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-09-23T13:34:44+00:00"
-        },
         {
           "date": "2026-10-28",
           "weekday_tr": "Çarşamba",
@@ -87,6 +78,33 @@
           "city": "",
           "venue_url": "",
           "first_seen": "2026-10-05T10:59:37+00:00"
+        },
+        {
+          "date": "2026-12-10",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-27T09:27:31+00:00"
+        },
+        {
+          "date": "2026-12-21",
+          "weekday_tr": "Pazartesi",
+          "time": "20:30",
+          "venue": "Monologlar Müzesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
+          "first_seen": "2026-10-27T09:27:31+00:00"
+        },
+        {
+          "date": "2026-12-24",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Monologlar Müzesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
+          "first_seen": "2026-10-27T09:27:31+00:00"
         }
       ],
       "error": null
@@ -509,6 +527,15 @@
           "first_seen": "2026-10-08T11:02:45+00:00"
         },
         {
+          "date": "2027-12-09",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "1250",
+          "city": "İstanbul",
+          "venue_url": "/istanbul/etkinlik/sesler-salih-bademci/seans/305499",
+          "first_seen": "2026-10-27T09:27:31+00:00"
+        },
+        {
           "date": "2027-12-11",
           "weekday_tr": "Cuma",
           "time": "20:30",
@@ -539,10 +566,10 @@
           "date": "2026-11-12",
           "weekday_tr": "Perşembe",
           "time": "20:30",
-          "venue": "1100",
+          "venue": "1650",
           "city": "İstanbul",
           "venue_url": "/istanbul/etkinlik/balli-sut/seans/293421",
-          "first_seen": "2026-09-29T10:15:25+00:00"
+          "first_seen": "2026-10-27T09:27:31+00:00"
         },
         {
           "date": "2026-11-26",
@@ -653,6 +680,15 @@
           "first_seen": "2026-10-22T10:29:45+00:00"
         },
         {
+          "date": "2026-11-04",
+          "weekday_tr": "Çarşamba",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-10-27T09:27:31+00:00"
+        },
+        {
           "date": "2026-11-12",
           "weekday_tr": "Perşembe",
           "time": "20:30",
@@ -728,10 +764,10 @@
           "date": "2026-12-04",
           "weekday_tr": "Cuma",
           "time": "21:00",
-          "venue": "Yeniköy Panayia Kilisesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-27T09:27:31+00:00"
         }
       ],
       "error": null
