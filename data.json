@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T10:10:50+00:00",
+  "updated_at": "2026-10-29T10:35:01+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -34,15 +34,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/m/monologlar-muzesi-pavyon/image/monologlar-muzesi-pavyon.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-pavyon",
       "sessions": [
-        {
-          "date": "2026-10-28",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-09-23T13:34:44+00:00"
-        },
         {
           "date": "2026-11-16",
           "weekday_tr": "Pazartesi",
@@ -101,10 +92,10 @@
           "date": "2026-12-24",
           "weekday_tr": "Perşembe",
           "time": "20:30",
-          "venue": "Monologlar Müzesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
-          "first_seen": "2026-10-27T09:27:31+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-29T10:35:01+00:00"
         }
       ],
       "error": null
@@ -196,15 +187,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/98lik-kiyamet",
       "sessions": [
         {
-          "date": "2026-10-28",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "Alan Kadıköy",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
-          "first_seen": "2026-09-23T13:40:59+00:00"
-        },
-        {
           "date": "2026-11-11",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
@@ -212,6 +194,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/zorlu-center-psm",
           "first_seen": "2026-09-25T09:12:55+00:00"
+        },
+        {
+          "date": "2026-12-27",
+          "weekday_tr": "Pazar",
+          "time": "20:30",
+          "venue": "Moda Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/moda-sahnesi",
+          "first_seen": "2026-10-29T10:35:01+00:00"
         }
       ],
       "error": null
@@ -786,15 +777,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/b/bence-katil-oldurdu/image/bence-katil-oldurdu.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/bence-katil-oldurdu",
       "sessions": [
-        {
-          "date": "2026-10-28",
-          "weekday_tr": "Çarşamba",
-          "time": "20:00",
-          "venue": "Mecidiyeköy Büyük Sahne",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        },
         {
           "date": "2026-10-29",
           "weekday_tr": "Perşembe",
