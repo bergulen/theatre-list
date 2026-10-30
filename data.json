@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T10:35:01+00:00",
+  "updated_at": "2026-10-30T10:36:13+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -32,7 +32,7 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-pavyon",
       "title": "Monologlar Müzesi Pavyon",
       "image": "https://tiyatrolar.com.tr/files/activity/m/monologlar-muzesi-pavyon/image/monologlar-muzesi-pavyon.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-pavyon",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-pavyon",
       "sessions": [
         {
           "date": "2026-11-16",
@@ -83,10 +83,10 @@
           "date": "2026-12-21",
           "weekday_tr": "Pazartesi",
           "time": "20:30",
-          "venue": "Monologlar Müzesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
-          "first_seen": "2026-10-27T09:27:31+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-30T10:36:13+00:00"
         },
         {
           "date": "2026-12-24",
@@ -683,10 +683,10 @@
           "date": "2026-11-12",
           "weekday_tr": "Perşembe",
           "time": "20:30",
-          "venue": "Yeniköy Panayia Kilisesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-30T10:36:13+00:00"
         },
         {
           "date": "2026-11-13",
@@ -710,10 +710,10 @@
           "date": "2026-12-01",
           "weekday_tr": "Salı",
           "time": "20:30",
-          "venue": "Yeniköy Panayia Kilisesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-10-30T10:36:13+00:00"
         },
         {
           "date": "2026-12-02",
@@ -777,15 +777,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/b/bence-katil-oldurdu/image/bence-katil-oldurdu.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/bence-katil-oldurdu",
       "sessions": [
-        {
-          "date": "2026-10-29",
-          "weekday_tr": "Perşembe",
-          "time": "20:00",
-          "venue": "Mecidiyeköy Büyük Sahne",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        },
         {
           "date": "2026-10-30",
           "weekday_tr": "Cuma",
