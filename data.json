@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T10:03:29+00:00",
+  "updated_at": "2026-11-01T10:54:29+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -617,24 +617,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-ceyiz-sozlesmesi",
       "sessions": [
         {
-          "date": "2026-10-31",
-          "weekday_tr": "Cumartesi",
-          "time": "18:00",
-          "venue": "Yeniköy Panayia Kilisesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        },
-        {
-          "date": "2026-10-31",
-          "weekday_tr": "Cumartesi",
-          "time": "20:30",
-          "venue": "Yeniköy Panayia Kilisesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        },
-        {
           "date": "2026-11-01",
           "weekday_tr": "Pazar",
           "time": "18:00",
@@ -758,26 +740,7 @@
       "title": "Bence Katil Öldürdü",
       "image": "https://tiyatrolar.com.tr/files/activity/b/bence-katil-oldurdu/image/bence-katil-oldurdu.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/bence-katil-oldurdu",
-      "sessions": [
-        {
-          "date": "2026-10-31",
-          "weekday_tr": "Cumartesi",
-          "time": "15:00",
-          "venue": "Mecidiyeköy Büyük Sahne",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        },
-        {
-          "date": "2026-10-31",
-          "weekday_tr": "Cumartesi",
-          "time": "20:00",
-          "venue": "Mecidiyeköy Büyük Sahne",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        }
-      ],
+      "sessions": [],
       "error": null
     },
     {
@@ -785,26 +748,7 @@
       "title": "Aslında Kaşık Yok",
       "image": "https://tiyatrolar.com.tr/files/activity/a/aslinda-kasik-yok/image/aslinda-kasik-yok.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/aslinda-kasik-yok",
-      "sessions": [
-        {
-          "date": "2026-10-31",
-          "weekday_tr": "Cumartesi",
-          "time": "15:00",
-          "venue": "Atatürk Kültür Merkezi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/ataturk-kultur-merkezi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        },
-        {
-          "date": "2026-10-31",
-          "weekday_tr": "Cumartesi",
-          "time": "20:00",
-          "venue": "Atatürk Kültür Merkezi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/ataturk-kultur-merkezi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        }
-      ],
+      "sessions": [],
       "error": null
     },
     {
