@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T10:54:29+00:00",
+  "updated_at": "2026-11-02T11:51:32+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -617,24 +617,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-ceyiz-sozlesmesi",
       "sessions": [
         {
-          "date": "2026-11-01",
-          "weekday_tr": "Pazar",
-          "time": "18:00",
-          "venue": "Yeniköy Panayia Kilisesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        },
-        {
-          "date": "2026-11-01",
-          "weekday_tr": "Pazar",
-          "time": "20:30",
-          "venue": "Yeniköy Panayia Kilisesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
-        },
-        {
           "date": "2026-11-04",
           "weekday_tr": "Çarşamba",
           "time": "18:00",
@@ -926,34 +908,16 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/harika-seyler-listesi",
       "title": "Harika Şeyler Listesi",
       "image": "https://tiyatrolar.com.tr/files/activity/h/harika-seyler-listesi/image/harika-seyler-listesi.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/harika-seyler-listesi",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/harika-seyler-listesi",
       "sessions": [
-        {
-          "date": "2026-11-01",
-          "weekday_tr": "Pazar",
-          "time": "19:00",
-          "venue": "Alan Kadıköy",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
-        {
-          "date": "2026-11-01",
-          "weekday_tr": "Pazar",
-          "time": "21:00",
-          "venue": "Alan Kadıköy",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
         {
           "date": "2026-11-03",
           "weekday_tr": "Salı",
           "time": "20:30",
-          "venue": "Zorlu PSM",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/zorlu-center-psm",
-          "first_seen": "2026-10-22T11:12:05+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-11-02T11:51:32+00:00"
         }
       ],
       "error": null
