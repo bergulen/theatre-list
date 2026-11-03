@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T11:51:32+00:00",
+  "updated_at": "2026-11-03T11:29:17+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -24,6 +24,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/turkan-saylan-kultur-merkezi",
           "first_seen": "2026-09-23T13:34:44+00:00"
+        },
+        {
+          "date": "2026-12-15",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "Oyun Atölyesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/oyun-atolyesi",
+          "first_seen": "2026-11-03T11:29:17+00:00"
         }
       ],
       "error": null
@@ -96,6 +105,15 @@
           "city": "",
           "venue_url": "",
           "first_seen": "2026-10-29T10:35:01+00:00"
+        },
+        {
+          "date": "2026-12-26",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-11-03T11:29:17+00:00"
         }
       ],
       "error": null
@@ -194,6 +212,24 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/zorlu-center-psm",
           "first_seen": "2026-09-25T09:12:55+00:00"
+        },
+        {
+          "date": "2026-12-06",
+          "weekday_tr": "Pazar",
+          "time": "20:30",
+          "venue": "Alan Kadıköy",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
+          "first_seen": "2026-11-03T11:29:17+00:00"
+        },
+        {
+          "date": "2026-12-19",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "Sahne Pulchérie",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/sahne-pulchrie",
+          "first_seen": "2026-11-03T11:29:17+00:00"
         },
         {
           "date": "2026-12-27",
@@ -300,8 +336,18 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/leke",
       "title": "Leke",
       "image": "https://tiyatrolar.com.tr/files/activity/l/leke/image/leke.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/leke",
-      "sessions": [],
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/leke",
+      "sessions": [
+        {
+          "date": "2026-11-05",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Muammer Karaca Tiyatrosu",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muammer-karaca-tiyatrosu",
+          "first_seen": "2026-11-03T11:29:17+00:00"
+        }
+      ],
       "error": null
     },
     {
@@ -665,10 +711,10 @@
           "date": "2026-12-02",
           "weekday_tr": "Çarşamba",
           "time": "20:30",
-          "venue": "Yeniköy Panayia Kilisesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-11-03T11:29:17+00:00"
         },
         {
           "date": "2026-12-03",
