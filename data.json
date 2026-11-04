@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:29:17+00:00",
+  "updated_at": "2026-11-04T11:45:29+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -684,10 +684,10 @@
           "date": "2026-11-13",
           "weekday_tr": "Cuma",
           "time": "18:00",
-          "venue": "Yeniköy Panayia Kilisesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
-          "first_seen": "2026-10-22T10:29:45+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-11-04T11:45:29+00:00"
         },
         {
           "date": "2026-11-13",
@@ -957,13 +957,22 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/harika-seyler-listesi",
       "sessions": [
         {
-          "date": "2026-11-03",
-          "weekday_tr": "Salı",
+          "date": "2026-11-19",
+          "weekday_tr": "Perşembe",
           "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-11-02T11:51:32+00:00"
+          "venue": "Fiba Salon İKSV",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/salon-iksv",
+          "first_seen": "2026-11-04T11:45:29+00:00"
+        },
+        {
+          "date": "2026-12-07",
+          "weekday_tr": "Pazartesi",
+          "time": "20:30",
+          "venue": "Fiba Salon İKSV",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/salon-iksv",
+          "first_seen": "2026-11-04T11:45:29+00:00"
         }
       ],
       "error": null
