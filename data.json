@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T10:48:19+00:00",
+  "updated_at": "2026-11-08T10:54:40+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -757,26 +757,7 @@
       "title": "Aslında Kaşık Yok",
       "image": "https://tiyatrolar.com.tr/files/activity/a/aslinda-kasik-yok/image/aslinda-kasik-yok.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/aslinda-kasik-yok",
-      "sessions": [
-        {
-          "date": "2026-11-07",
-          "weekday_tr": "Cumartesi",
-          "time": "15:00",
-          "venue": "Mecidiyeköy Büyük Sahne",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
-          "first_seen": "2026-11-05T11:43:33+00:00"
-        },
-        {
-          "date": "2026-11-07",
-          "weekday_tr": "Cumartesi",
-          "time": "20:00",
-          "venue": "Mecidiyeköy Büyük Sahne",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/mecidiyekoy-buyuk-sahne",
-          "first_seen": "2026-11-05T11:43:33+00:00"
-        }
-      ],
+      "sessions": [],
       "error": null
     },
     {
