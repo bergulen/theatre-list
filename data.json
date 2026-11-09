@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T10:54:40+00:00",
+  "updated_at": "2026-11-09T12:20:55+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -650,7 +650,7 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/bir-ceyiz-sozlesmesi",
       "title": "Bir Çeyiz Sözleşmesi",
       "image": "https://tiyatrolar.com.tr/files/activity/b/bir-ceyiz-sozlesmesi/image/bir-ceyiz-sozlesmesi.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/bir-ceyiz-sozlesmesi",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-ceyiz-sozlesmesi",
       "sessions": [
         {
           "date": "2026-11-12",
@@ -719,10 +719,10 @@
           "date": "2026-12-04",
           "weekday_tr": "Cuma",
           "time": "18:00",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-11-05T11:43:33+00:00"
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
         },
         {
           "date": "2026-12-04",
@@ -732,6 +732,132 @@
           "city": "",
           "venue_url": "",
           "first_seen": "2026-10-27T09:27:31+00:00"
+        },
+        {
+          "date": "2027-01-12",
+          "weekday_tr": "Salı",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-01-12",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-01-13",
+          "weekday_tr": "Çarşamba",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-01-13",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-01-15",
+          "weekday_tr": "Cuma",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-01-15",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-02-02",
+          "weekday_tr": "Salı",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-02-02",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-02-03",
+          "weekday_tr": "Çarşamba",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-02-03",
+          "weekday_tr": "Çarşamba",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-02-04",
+          "weekday_tr": "Perşembe",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-02-04",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-02-05",
+          "weekday_tr": "Cuma",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
+        },
+        {
+          "date": "2027-02-05",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-09T12:20:55+00:00"
         }
       ],
       "error": null
