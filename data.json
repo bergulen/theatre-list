@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T11:57:28+00:00",
+  "updated_at": "2026-11-11T11:35:50+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -336,8 +336,18 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/leke",
       "title": "Leke",
       "image": "https://tiyatrolar.com.tr/files/activity/l/leke/image/leke.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/leke",
-      "sessions": [],
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/leke",
+      "sessions": [
+        {
+          "date": "2026-12-08",
+          "weekday_tr": "Salı",
+          "time": "20:30",
+          "venue": "Kadıköy Barış Manço Kültür Merkezi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-baris-manco-kultur-merkezi",
+          "first_seen": "2026-11-11T11:35:50+00:00"
+        }
+      ],
       "error": null
     },
     {
@@ -1090,15 +1100,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/k/kel-diva/image/kel-diva.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/kel-diva",
       "sessions": [
-        {
-          "date": "2026-11-10",
-          "weekday_tr": "Salı",
-          "time": "20:30",
-          "venue": "Oyun Atölyesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/oyun-atolyesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
         {
           "date": "2026-11-11",
           "weekday_tr": "Çarşamba",
