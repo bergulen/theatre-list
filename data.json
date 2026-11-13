@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T11:59:17+00:00",
+  "updated_at": "2026-11-13T11:43:49+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -50,7 +50,7 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-pavyon",
       "title": "Monologlar Müzesi Pavyon",
       "image": "https://tiyatrolar.com.tr/files/activity/m/monologlar-muzesi-pavyon/image/monologlar-muzesi-pavyon.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-pavyon",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-pavyon",
       "sessions": [
         {
           "date": "2026-11-16",
@@ -123,6 +123,24 @@
           "city": "",
           "venue_url": "",
           "first_seen": "2026-11-03T11:29:17+00:00"
+        },
+        {
+          "date": "2027-01-11",
+          "weekday_tr": "Pazartesi",
+          "time": "20:30",
+          "venue": "Monologlar Müzesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
+          "first_seen": "2026-11-13T11:43:49+00:00"
+        },
+        {
+          "date": "2027-01-14",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Monologlar Müzesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
+          "first_seen": "2026-11-13T11:43:49+00:00"
         }
       ],
       "error": null
@@ -168,6 +186,33 @@
           "city": "",
           "venue_url": "",
           "first_seen": "2026-10-07T10:42:54+00:00"
+        },
+        {
+          "date": "2026-12-11",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Perispri Art Gallery",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/perispri",
+          "first_seen": "2026-11-13T11:43:49+00:00"
+        },
+        {
+          "date": "2026-12-18",
+          "weekday_tr": "Cuma",
+          "time": "20:30",
+          "venue": "Alan Kadıköy",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
+          "first_seen": "2026-11-13T11:43:49+00:00"
+        },
+        {
+          "date": "2026-12-19",
+          "weekday_tr": "Cumartesi",
+          "time": "20:30",
+          "venue": "Perispri Art Gallery",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/perispri",
+          "first_seen": "2026-11-13T11:43:49+00:00"
         }
       ],
       "error": null
@@ -186,15 +231,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/d/donme-dolap-4/image/donme-dolap-4.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/donme-dolap-4",
       "sessions": [
-        {
-          "date": "2026-11-12",
-          "weekday_tr": "Perşembe",
-          "time": "20:00",
-          "venue": "Caddebostan Kültür Merkezi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-kultur-merkezi",
-          "first_seen": "2026-10-13T11:17:26+00:00"
-        },
         {
           "date": "2026-11-26",
           "weekday_tr": "Perşembe",
@@ -663,15 +699,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-ceyiz-sozlesmesi",
       "sessions": [
         {
-          "date": "2026-11-12",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-10-30T10:36:13+00:00"
-        },
-        {
           "date": "2026-11-13",
           "weekday_tr": "Cuma",
           "time": "18:00",
@@ -903,15 +930,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/cingene-boksor-1",
       "sessions": [
         {
-          "date": "2026-11-12",
-          "weekday_tr": "Perşembe",
-          "time": "20:00",
-          "venue": "Müze Gazhane",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
-        {
           "date": "2026-11-13",
           "weekday_tr": "Cuma",
           "time": "20:00",
@@ -1010,15 +1028,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/y/yoldan-cikan-oyun-3/image/yoldan-cikan-oyun-3.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/yoldan-cikan-oyun-3",
       "sessions": [
-        {
-          "date": "2026-11-12",
-          "weekday_tr": "Perşembe",
-          "time": "20:00",
-          "venue": "Ümraniye Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/umraniye-sahnesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
         {
           "date": "2026-11-13",
           "weekday_tr": "Cuma",
