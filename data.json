@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T11:05:40+00:00",
+  "updated_at": "2026-11-15T11:40:34+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -151,15 +151,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/t/tebdil/image/tebdil.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/tebdil",
       "sessions": [
-        {
-          "date": "2026-11-14",
-          "weekday_tr": "Cumartesi",
-          "time": "20:30",
-          "venue": "Perispri Art Gallery",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/perispri",
-          "first_seen": "2026-10-07T10:42:54+00:00"
-        },
         {
           "date": "2026-11-27",
           "weekday_tr": "Cuma",
@@ -892,26 +883,7 @@
       "title": "Çingene Boksör",
       "image": "https://tiyatrolar.com.tr/files/activity/c/cingene-boksor-1/image/cingene-boksor-1.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/cingene-boksor-1",
-      "sessions": [
-        {
-          "date": "2026-11-14",
-          "weekday_tr": "Cumartesi",
-          "time": "15:00",
-          "venue": "Müze Gazhane",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
-        {
-          "date": "2026-11-14",
-          "weekday_tr": "Cumartesi",
-          "time": "20:00",
-          "venue": "Müze Gazhane",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        }
-      ],
+      "sessions": [],
       "error": null
     },
     {
@@ -982,26 +954,7 @@
       "title": "Yoldan Çıkan Oyun",
       "image": "https://tiyatrolar.com.tr/files/activity/y/yoldan-cikan-oyun-3/image/yoldan-cikan-oyun-3.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/yoldan-cikan-oyun-3",
-      "sessions": [
-        {
-          "date": "2026-11-14",
-          "weekday_tr": "Cumartesi",
-          "time": "15:00",
-          "venue": "Ümraniye Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/umraniye-sahnesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
-        {
-          "date": "2026-11-14",
-          "weekday_tr": "Cumartesi",
-          "time": "20:00",
-          "venue": "Ümraniye Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/umraniye-sahnesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        }
-      ],
+      "sessions": [],
       "error": null
     },
     {
