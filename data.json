@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T11:40:34+00:00",
+  "updated_at": "2026-11-16T12:17:22+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -56,19 +56,19 @@
           "date": "2026-11-16",
           "weekday_tr": "Pazartesi",
           "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-09-28T10:19:21+00:00"
+          "venue": "Monologlar Müzesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
+          "first_seen": "2026-11-16T12:17:22+00:00"
         },
         {
           "date": "2026-11-19",
           "weekday_tr": "Perşembe",
           "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-09-30T10:06:37+00:00"
+          "venue": "Monologlar Müzesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
+          "first_seen": "2026-11-16T12:17:22+00:00"
         },
         {
           "date": "2026-11-25",
@@ -679,6 +679,15 @@
           "city": "",
           "venue_url": "",
           "first_seen": "2026-10-30T10:36:13+00:00"
+        },
+        {
+          "date": "2026-12-02",
+          "weekday_tr": "Çarşamba",
+          "time": "18:00",
+          "venue": "Yeniköy Panayia Kilisesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/yenikoy-panayia-kilisesi",
+          "first_seen": "2026-11-16T12:17:22+00:00"
         },
         {
           "date": "2026-12-02",
