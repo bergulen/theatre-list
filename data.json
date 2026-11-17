@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:17:22+00:00",
+  "updated_at": "2026-11-17T12:38:41+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -38,10 +38,10 @@
           "date": "2026-12-20",
           "weekday_tr": "Pazar",
           "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-11-12T11:59:17+00:00"
+          "venue": "Muammer Karaca Tiyatrosu",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muammer-karaca-tiyatrosu",
+          "first_seen": "2026-11-17T12:38:41+00:00"
         }
       ],
       "error": null
@@ -52,15 +52,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/m/monologlar-muzesi-pavyon/image/monologlar-muzesi-pavyon.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-pavyon",
       "sessions": [
-        {
-          "date": "2026-11-16",
-          "weekday_tr": "Pazartesi",
-          "time": "20:30",
-          "venue": "Monologlar Müzesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
-          "first_seen": "2026-11-16T12:17:22+00:00"
-        },
         {
           "date": "2026-11-19",
           "weekday_tr": "Perşembe",
@@ -373,6 +364,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/istos-sahne-aznavur",
           "first_seen": "2026-10-20T09:00:55+00:00"
+        },
+        {
+          "date": "2026-12-20",
+          "weekday_tr": "Pazar",
+          "time": "20:30",
+          "venue": "Fitaş Dünya Sahne",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/fitas-sahnesi",
+          "first_seen": "2026-11-17T12:38:41+00:00"
         }
       ],
       "error": null
@@ -1034,6 +1034,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/zorlu-center-psm",
           "first_seen": "2026-11-12T11:59:17+00:00"
+        },
+        {
+          "date": "2026-12-17",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Oyun Atölyesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/oyun-atolyesi",
+          "first_seen": "2026-11-17T12:38:41+00:00"
         }
       ],
       "error": null
