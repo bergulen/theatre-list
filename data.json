@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T12:29:45+00:00",
+  "updated_at": "2026-11-19T12:20:01+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -56,10 +56,10 @@
           "date": "2026-11-19",
           "weekday_tr": "Perşembe",
           "time": "20:30",
-          "venue": "Monologlar Müzesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
-          "first_seen": "2026-11-16T12:17:22+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-11-19T12:20:01+00:00"
         },
         {
           "date": "2026-11-25",
@@ -902,15 +902,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/oylece-durur-zaman",
       "sessions": [
         {
-          "date": "2026-11-18",
-          "weekday_tr": "Çarşamba",
-          "time": "20:00",
-          "venue": "Üsküdar Kerem Yılmazer Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-kerem-yilmazer-sahnesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
-        {
           "date": "2026-11-19",
           "weekday_tr": "Perşembe",
           "time": "20:00",
@@ -954,6 +945,60 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/inal-aydinoglu-kultur-merkezi",
           "first_seen": "2026-11-12T11:59:17+00:00"
+        },
+        {
+          "date": "2026-12-16",
+          "weekday_tr": "Çarşamba",
+          "time": "15:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-11-19T12:20:01+00:00"
+        },
+        {
+          "date": "2026-12-16",
+          "weekday_tr": "Çarşamba",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-11-19T12:20:01+00:00"
+        },
+        {
+          "date": "2026-12-17",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-11-19T12:20:01+00:00"
+        },
+        {
+          "date": "2026-12-18",
+          "weekday_tr": "Cuma",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-11-19T12:20:01+00:00"
+        },
+        {
+          "date": "2026-12-19",
+          "weekday_tr": "Cumartesi",
+          "time": "15:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-11-19T12:20:01+00:00"
+        },
+        {
+          "date": "2026-12-19",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Müze Gazhane",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+          "first_seen": "2026-11-19T12:20:01+00:00"
         }
       ],
       "error": null
@@ -963,7 +1008,53 @@
       "title": "Yoldan Çıkan Oyun",
       "image": "https://tiyatrolar.com.tr/files/activity/y/yoldan-cikan-oyun-3/image/yoldan-cikan-oyun-3.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/yoldan-cikan-oyun-3",
-      "sessions": [],
+      "sessions": [
+        {
+          "date": "2026-12-02",
+          "weekday_tr": "Çarşamba",
+          "time": "20:00",
+          "venue": "Kağıthane Sadabad Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kagithane-sadabad-sahnesi",
+          "first_seen": "2026-11-19T12:20:01+00:00"
+        },
+        {
+          "date": "2026-12-03",
+          "weekday_tr": "Perşembe",
+          "time": "20:00",
+          "venue": "Kağıthane Sadabad Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kagithane-sadabad-sahnesi",
+          "first_seen": "2026-11-19T12:20:01+00:00"
+        },
+        {
+          "date": "2026-12-04",
+          "weekday_tr": "Cuma",
+          "time": "20:00",
+          "venue": "Kağıthane Sadabad Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kagithane-sadabad-sahnesi",
+          "first_seen": "2026-11-19T12:20:01+00:00"
+        },
+        {
+          "date": "2026-12-05",
+          "weekday_tr": "Cumartesi",
+          "time": "15:00",
+          "venue": "Kağıthane Sadabad Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kagithane-sadabad-sahnesi",
+          "first_seen": "2026-11-19T12:20:01+00:00"
+        },
+        {
+          "date": "2026-12-05",
+          "weekday_tr": "Cumartesi",
+          "time": "20:00",
+          "venue": "Kağıthane Sadabad Sahnesi",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/kagithane-sadabad-sahnesi",
+          "first_seen": "2026-11-19T12:20:01+00:00"
+        }
+      ],
       "error": null
     },
     {
