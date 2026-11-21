@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T12:21:12+00:00",
+  "updated_at": "2026-11-21T11:54:28+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -920,15 +920,6 @@
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/oylece-durur-zaman",
       "sessions": [
         {
-          "date": "2026-11-20",
-          "weekday_tr": "Cuma",
-          "time": "20:00",
-          "venue": "Üsküdar Kerem Yılmazer Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-kerem-yilmazer-sahnesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
-        {
           "date": "2026-11-21",
           "weekday_tr": "Cumartesi",
           "time": "15:00",
@@ -1070,7 +1061,7 @@
       "url": "https://tiyatrolar.com.tr/tiyatro/harika-seyler-listesi",
       "title": "Harika Şeyler Listesi",
       "image": "https://tiyatrolar.com.tr/files/activity/h/harika-seyler-listesi/image/harika-seyler-listesi.jpg",
-      "ticket_url": "https://tiyatrolar.com.tr/tiyatro/harika-seyler-listesi",
+      "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/harika-seyler-listesi",
       "sessions": [
         {
           "date": "2026-12-07",
@@ -1080,6 +1071,15 @@
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/salon-iksv",
           "first_seen": "2026-11-04T11:45:29+00:00"
+        },
+        {
+          "date": "2027-01-28",
+          "weekday_tr": "Perşembe",
+          "time": "20:30",
+          "venue": "Zorlu PSM",
+          "city": "İstanbul",
+          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/zorlu-center-psm",
+          "first_seen": "2026-11-21T11:54:28+00:00"
         }
       ],
       "error": null
