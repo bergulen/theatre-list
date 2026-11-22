@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T11:54:28+00:00",
+  "updated_at": "2026-11-22T12:09:20+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -7,15 +7,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/o/odenmeyecek-odemiyoruz-2/image/odenmeyecek-odemiyoruz-2.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/odenmeyecek-odemiyoruz-2",
       "sessions": [
-        {
-          "date": "2026-11-21",
-          "weekday_tr": "Cumartesi",
-          "time": "20:30",
-          "venue": "Fişekhane",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/fisekhane",
-          "first_seen": "2026-09-25T09:12:55+00:00"
-        },
         {
           "date": "2026-11-28",
           "weekday_tr": "Cumartesi",
@@ -119,10 +110,10 @@
           "date": "2027-01-14",
           "weekday_tr": "Perşembe",
           "time": "20:30",
-          "venue": "Monologlar Müzesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
-          "first_seen": "2026-11-13T11:43:49+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-11-22T12:09:20+00:00"
         },
         {
           "date": "2027-01-18",
@@ -919,24 +910,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/o/oylece-durur-zaman/image/oylece-durur-zaman.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/oylece-durur-zaman",
       "sessions": [
-        {
-          "date": "2026-11-21",
-          "weekday_tr": "Cumartesi",
-          "time": "15:00",
-          "venue": "Üsküdar Kerem Yılmazer Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-kerem-yilmazer-sahnesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
-        {
-          "date": "2026-11-21",
-          "weekday_tr": "Cumartesi",
-          "time": "20:00",
-          "venue": "Üsküdar Kerem Yılmazer Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/uskudar-kerem-yilmazer-sahnesi",
-          "first_seen": "2026-10-22T11:12:05+00:00"
-        },
         {
           "date": "2026-11-24",
           "weekday_tr": "Salı",
