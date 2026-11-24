@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T13:53:05+00:00",
+  "updated_at": "2026-11-24T14:25:33+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -368,11 +368,11 @@
         {
           "date": "2026-12-20",
           "weekday_tr": "Pazar",
-          "time": "20:30",
+          "time": "19:00",
           "venue": "Fitaş Dünya Sahne",
           "city": "İstanbul",
           "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/fitas-sahnesi",
-          "first_seen": "2026-11-17T12:38:41+00:00"
+          "first_seen": "2026-11-24T14:25:33+00:00"
         }
       ],
       "error": null
