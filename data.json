@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:25:33+00:00",
+  "updated_at": "2026-11-25T13:44:35+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -901,15 +901,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/o/oylece-durur-zaman/image/oylece-durur-zaman.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro/oylece-durur-zaman",
       "sessions": [
-        {
-          "date": "2026-11-24",
-          "weekday_tr": "Salı",
-          "time": "20:00",
-          "venue": "İnal Aydınoğlu Kültür Merkezi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/inal-aydinoglu-kultur-merkezi",
-          "first_seen": "2026-11-12T11:59:17+00:00"
-        },
         {
           "date": "2026-12-16",
           "weekday_tr": "Çarşamba",
