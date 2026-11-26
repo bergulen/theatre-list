@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T13:44:35+00:00",
+  "updated_at": "2026-11-26T13:22:12+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -43,15 +43,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/m/monologlar-muzesi-pavyon/image/monologlar-muzesi-pavyon.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-pavyon",
       "sessions": [
-        {
-          "date": "2026-11-25",
-          "weekday_tr": "Çarşamba",
-          "time": "20:30",
-          "venue": "",
-          "city": "",
-          "venue_url": "",
-          "first_seen": "2026-10-03T09:32:16+00:00"
-        },
         {
           "date": "2026-11-30",
           "weekday_tr": "Pazartesi",
