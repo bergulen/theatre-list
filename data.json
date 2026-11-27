@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T13:22:12+00:00",
+  "updated_at": "2026-11-27T13:20:04+00:00",
   "plays": [
     {
       "url": "https://tiyatrolar.com.tr/tiyatro/odenmeyecek-odemiyoruz-2",
@@ -110,10 +110,10 @@
           "date": "2027-01-18",
           "weekday_tr": "Pazartesi",
           "time": "20:30",
-          "venue": "Monologlar Müzesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/monologlar-muzesi",
-          "first_seen": "2026-11-20T12:21:12+00:00"
+          "venue": "",
+          "city": "",
+          "venue_url": "",
+          "first_seen": "2026-11-27T13:20:04+00:00"
         },
         {
           "date": "2027-01-21",
@@ -195,15 +195,6 @@
       "image": "https://tiyatrolar.com.tr/files/activity/d/donme-dolap-4/image/donme-dolap-4.jpg",
       "ticket_url": "https://tiyatrolar.com.tr/tiyatro-bilet/donme-dolap-4",
       "sessions": [
-        {
-          "date": "2026-11-26",
-          "weekday_tr": "Perşembe",
-          "time": "20:30",
-          "venue": "Koma Sahnesi",
-          "city": "İstanbul",
-          "venue_url": "https://tiyatrolar.com.tr/sahne/istanbul/koma-sahnesi",
-          "first_seen": "2026-10-02T10:09:53+00:00"
-        },
         {
           "date": "2026-12-24",
           "weekday_tr": "Perşembe",
